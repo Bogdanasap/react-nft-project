@@ -1,19 +1,27 @@
 .road-map{
     height: 400px;
     width: auto;
-    background-color: #61dafb;
+    margin-top: auto;
+    background-color: #1e1e1e;
     position: relative;
+    justify-content: space-between;
 }
 
 
 .dot {
-    height: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 50px;
-    background-color: rgba(0,0,0,1);
     border-radius: 50%;
     border-color: blue;
     border-width: thick;
     display: grid;
     position: relative;
+    padding: 15px;
+    background-color: white;
+    justify-content: center;
+}
+
+.dot > img {
+    height: 45px;
+    align-content: center;
 }

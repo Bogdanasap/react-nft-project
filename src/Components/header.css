@@ -1,5 +1,5 @@
 .header {
-    background: #5842fa;
+    background: #1e1e1e;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -11,13 +11,14 @@
 }
 
 .punkLogo{
-    width: 200px;
+    width: 100px;
 }
 
 .headerItems{
     display: flex;
     color: #a1a5b0;
     font-family: "Press Start 2P";
+    size: auto;
 }
 
 .headerItems > p{

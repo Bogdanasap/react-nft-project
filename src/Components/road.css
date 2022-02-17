@@ -2,9 +2,9 @@
     height: 400px;
     width: auto;
     margin-top: auto;
-    background-color: #1e1e1e;
     position: relative;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 

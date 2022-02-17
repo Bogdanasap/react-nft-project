@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import punkLogo from '../assets/header/cryptopunk-logo.png'
-import searchIcon from '../assets/header/search.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
 import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
 import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
@@ -12,13 +11,8 @@ const Header = () => {
             <div className='logoContainer'>
                 <img src={punkLogo} className='punkLogo' alt=''/>
             </div>
-            <div className='searchBar'>
-                <div className='searchIconContainer'>
-                    <img src={searchIcon} />
-                </div>
-                <input className='searchInput' placeholder='Collection, item or user ...'/>
-            </div>
             <div className='headerItems'>
+                <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 <p>Drops</p>
                 <p>Roadmap</p>
             </div>
@@ -34,6 +28,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='mintButton'>
+                <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 Mint
             </div>
         </div>

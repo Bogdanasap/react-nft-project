@@ -2,7 +2,9 @@ import React from 'react'
 import './header.css'
 import punkLogo from '../assets/header/cryptopunk-logo.png'
 import searchIcon from '../assets/header/search.png'
-import themeSwitchIcon from '../assets/header/theme-switch.png'
+import twitterIcon from '../assets/assets_website/pngwing.com.png'
+import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
+import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
 
 const Header = () => {
     return (
@@ -18,16 +20,21 @@ const Header = () => {
             </div>
             <div className='headerItems'>
                 <p>Drops</p>
-                <p>Marketplace</p>
-                <p>Mint</p>
+                <p>Roadmap</p>
             </div>
             <div className='headerActions'>
-                <div className='themeSwitchContainer'>
-                    <img src={themeSwitchIcon}/>
+                <div className='discordContainer'>
+                    <img src={discordIcon}/>
+                </div>
+                <div className='instagramContainer'>
+                    <img src={instagramIcon}/>
+                </div>
+                <div className='twitterContainer'>
+                    <img src={twitterIcon}/>
                 </div>
             </div>
-            <div className='discordButton'>
-                DISCORD
+            <div className='mintButton'>
+                Mint
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 .header {
-    color: white;
+    background-color: black;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -54,22 +54,50 @@
     margin: 10px;
 }
 
-.themeSwitchContainer{
+.discordContainer{
     display: flex;
-    background-color: #1c1c1e;
+    background-color: white;
     border-radius: 50px;
-    padding: 15%;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     object-fit: contain;
 }
 
-.themeSwitchContainer > img{
+.discordContainer > img{
     height: 25px;
 }
 
-.discordButton{
-    background: linear-gradient(to right, #59f9b7, #66feea);
+.instagramContainer{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.instagramContainer > img{
+    height: 25px;
+}
+
+.twitterContainer{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.twitterContainer > img{
+    height: 25px;
+}
+
+.mintButton{
+    background: linear-gradient(to right, #6e59f9, #fe66ea);
     border-radius: 50px;
     padding: 15px 40px;
     color: black;

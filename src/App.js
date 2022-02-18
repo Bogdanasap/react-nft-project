@@ -15,6 +15,7 @@ function App() {
         <Header />
           <Trailer />
             <RoadMap />
+                <Faq />
                 <Footer />
       </div>
   )

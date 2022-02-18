@@ -4,19 +4,24 @@ import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
 import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
 import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
+import searchIcon from '../assets/header/search.png'
+
 
 const Header = () => {
     return (
         <div className='header'>
             <div className='logoContainer'>
-                <img src={dobbsLogo} className='dubbLogo' alt=''/>
+                <img src={dobbsLogo} className='punkLogo' alt=''/>
+            </div>
+            <div className='searchBar'>
+                <div className='searchIconContainer'>
+                    <img src={searchIcon} />
+                </div>
+                <input className='searchInput' placeholder='Collection, item or user ...'/>
             </div>
             <div className='headerItems'>
-                <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
-                <p>ABOUT</p>
-                <p>ROADMAP</p>
-                <p>TEAM</p>
-                <p>FAQ</p>
+                <p>Drops</p>
+                <p>Roadmap</p>
             </div>
             <div className='headerActions'>
                 <div className='discordContainer'>

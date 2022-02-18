@@ -50,3 +50,22 @@ h1{
     content: "-";
 }
 
+.accordion-item-body{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    position: relative;
+    text-align: left;
+    font-size: large;
+}
+
+.accordion-item-body-content{
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, transparent, #ad66fe, transparent) 1;
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    max-height: 500px;
+}

@@ -1,11 +1,13 @@
 import React from 'react'
 import "./faq.css"
-const faqItem = document.querySelectorAll(".accordion-item-header");
+const faqItem = document.querySelectorAll(".accordion-item-header")
 faqItem.forEach(faqItem => {
-    faqItem.addEventListener('click',event => {
+    faqItem.addEventListener('click', event => {
         faqItem.classList.toggle('active');
     })
 })
+
+
 
 const Faq = () => {
     return (

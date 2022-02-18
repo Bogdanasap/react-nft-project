@@ -19,12 +19,12 @@
 .discordContainer{
     display: flex;
     background-color: white;
+    width: 25px;
     border-radius: 10px;
     padding: 10px;
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    float: right;
 }
 
 .discordContainer > img{
@@ -36,6 +36,7 @@
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    width: 25px;
     justify-content: center;
     align-items: center;
     object-fit: contain;
@@ -50,6 +51,7 @@
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    width: 25px;
     justify-content: center;
     align-items: center;
     object-fit: contain;

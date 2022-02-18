@@ -1,4 +1,8 @@
 .paragraph {
     font-family: "Press Start 2P";
     size: auto;
+    background-color: #ad66fe;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
 }

@@ -1,38 +1,19 @@
-.header {
+.footer{
     background: #1e1e1e;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    justify-content: end;
 }
 
-.header > div{
-    margin: 10px;
-}
-
-.dubbLogo{
-    width: 100px;
-}
-
-.headerItems{
+.footerActions{
     display: flex;
-    color: #a1a5b0;
-    font-family: "Press Start 2P";
-    size: auto;
+    align-items: flex-end;
 }
 
-.headerItems > p{
-    margin: 20px;
-}
-
-.headerActions{
-    display: flex;
-    align-items: center;
-}
-
-.headerActions > div{
+.footerActions > div{
     margin: 10px;
 }
 
@@ -86,5 +67,4 @@
     color: black;
     font-family: "Press Start 2P";
 }
-
 

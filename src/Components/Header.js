@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='logoContainer'>
-                <img src={dobbsLogo} className='punkLogo' alt=''/>
+                <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
             <div className='headerItems'>
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>

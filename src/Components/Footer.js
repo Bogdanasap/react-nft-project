@@ -16,14 +16,17 @@ const Footer = () => {
 
                 <div className='discordContainer'>
                     <img src={discordIcon}/>
+                    <a href="https://discord.com/"></a>
                 </div>
 
                 <div className='instagramContainer'>
                     <img src={instagramIcon}/>
+                    <a href="https://www.instagram.com"></a>
                 </div>
 
                 <div className='twitterContainer'>
                     <img src={twitterIcon}/>
+                    <a href="https://twitter.com/home"></a>
                 </div>
 
                 <div className='mintButton'>

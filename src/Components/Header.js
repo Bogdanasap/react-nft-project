@@ -15,7 +15,7 @@ const Header = () => {
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
             <div className='headerItems'>
-                <p>ABOUT</p>
+                    <p>ABOUT</p>
                 <p>ROADMAP</p>
                 <p>FAQ</p>
             </div>

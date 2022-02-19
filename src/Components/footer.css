@@ -3,13 +3,18 @@
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     bottom: 0;
 }
 
 .footerActions{
     display: flex;
-    float: right;
+    right: 1rem;
+}
+
+.footerLogo{
+    width: 100px;
+    left: 1rem;
 }
 
 .footerActions > div{

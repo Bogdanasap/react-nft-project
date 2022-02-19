@@ -6,6 +6,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Press Start 2P";
 }
 
 .header > div{
@@ -14,6 +15,12 @@
 
 .dubbLogo{
     width: 100px;
+    height: 100px;
+}
+
+.logoContainer{
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .headerItems{

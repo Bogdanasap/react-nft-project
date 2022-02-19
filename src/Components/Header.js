@@ -10,18 +10,14 @@ import searchIcon from '../assets/header/search.png'
 const Header = () => {
     return (
         <div className='header'>
+            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
-                <img src={dobbsLogo} className='punkLogo' alt=''/>
-            </div>
-            <div className='searchBar'>
-                <div className='searchIconContainer'>
-                    <img src={searchIcon} />
-                </div>
-                <input className='searchInput' placeholder='Collection, item or user ...'/>
+                <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
             <div className='headerItems'>
-                <p>Drops</p>
-                <p>Roadmap</p>
+                <p>ABOUT</p>
+                <p>ROADMAP</p>
+                <p>FAQ</p>
             </div>
             <div className='headerActions'>
                 <div className='discordContainer'>

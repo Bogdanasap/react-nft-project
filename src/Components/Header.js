@@ -8,16 +8,37 @@ import searchIcon from '../assets/header/search.png'
 
 
 const Header = () => {
+
+    function moveToMint() {
+        window.scrollTo(0,850);
+    }
+
+    function moveToFAQ() {
+        window.scrollTo(0,1400);
+    }
+
+    function moveToRoadmap() {
+        window.scrollTo(0,800);
+    }
+
+    function moveToAbout() {
+        window.scrollTo(0,600);
+    }
+
+
     return (
+
+
+
         <div className='header'>
             <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
             <div className='headerItems'>
-                <p>ABOUT</p>
-                <p>ROADMAP</p>
-                <p>FAQ</p>
+                <p onClick={moveToAbout}>ABOUT</p>
+                <p onClick={moveToRoadmap}>ROADMAP</p>
+                <p onClick={moveToFAQ}>FAQ</p>
             </div>
             <div className='headerActions'>
                 <div className='discordContainer'>
@@ -30,10 +51,10 @@ const Header = () => {
                     <img src={twitterIcon}/>
                 </div>
             </div>
-            <div className='mintButton'>
+            <button onClick={moveToMint} className='mintButton'>
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 Mint
-            </div>
+            </button>
         </div>
     )
 

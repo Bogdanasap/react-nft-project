@@ -28,6 +28,7 @@ const Road = () => {
     //MINTAT COAIE
 
     const [mintAmount, setMintAmount] = useState(1);
+    const [text, setText] = useState(["NFT"]);
 
     async function handleMint() {
         if ( window.ethereum) {
@@ -49,32 +50,98 @@ const Road = () => {
     }
 
     function numberOfMintsDecrease() {
+
+        if(mintAmount<=2)
+        {
+            setText("NFT");
+            ok=0;
+            console.log(mintAmount);
+        }
+
         if(mintAmount>=1)
             setMintAmount(mintAmount-1)
+
+    }
+
+    function numberOfMintsIncrease() {
+
+        if(mintAmount>=1) {
+            setText("NFTS");
+            ok=1;
+            console.log(mintAmount);
+        }
+
+            setMintAmount(mintAmount+1)
+    }
+
+    let ok =0;
+
+    function showMint() {
+
     }
 
 
 
+
+
+    function functions() {
+        numberOfMintsDecrease();
+        showMint();
+    }
+
+    function functions1() {
+        numberOfMintsIncrease()
+        showMint();
+    }
+
+    function functions2() {
+        handleMint()
+    }
+
+
+
+    /*
+
+    function offset(el) {
+        var rect = el.getBoundingClientRect(),
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+
+// example use
+    var div = React.findDOMNode(this.refs.bone).value;
+    var divOffset = offset(div);
+    console.log(divOffset.left, divOffset.top);
+
+*/
+
+
+
+
     return (
+
+
+
         <div className='road-map'>
             <div className="space">
 
             </div>
             <div className="row">
-           <div className='dot'>
+           <div className="dot">
                <img src={bone}/>
            </div>
 
             <div className='dot'>
-                <img src={bone}/>
+
             </div>
 
             <div className='dot'>
-                <img src={bone}/>
+
             </div>
 
             <div className='dot'>
-                <img src={bone}/>
+
             </div>
 
             <div className="column">
@@ -85,9 +152,9 @@ const Road = () => {
                             <p className="title">Daca nu merge asta ma arunc pe geam</p>
                             {accounts.length && (
                                 <div>
-                                    <button onClick={numberOfMintsDecrease} className="mint-button-sign">-</button>
-                                    <button onClick={handleMint} className="mint-button">MINT {mintAmount} NFTS</button>
-                                    <button className="mint-button-sign" onClick={() => setMintAmount(mintAmount + 1)}>+</button>
+                                    <button onClick={functions} className="mint-button-sign">-</button>
+                                    <button onClick={functions2} className="mint-button">MINT {mintAmount} {text}</button>
+                                    <button className="mint-button-sign" onClick={functions1}>+</button>
                                 </div>
                             )}
                         </div>

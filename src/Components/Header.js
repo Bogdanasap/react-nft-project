@@ -10,19 +10,19 @@ import searchIcon from '../assets/header/search.png'
 const Header = () => {
 
     function moveToMint() {
-        window.scrollTo(0,850);
+        window.scrollTo(0,1050);
     }
 
     function moveToFAQ() {
-        window.scrollTo(0,1400);
+        window.scrollTo(0,1600);
     }
 
     function moveToRoadmap() {
-        window.scrollTo(0,800);
+        window.scrollTo(0,900);
     }
 
     function moveToAbout() {
-        window.scrollTo(0,600);
+        window.scrollTo(0,800);
     }
 
 

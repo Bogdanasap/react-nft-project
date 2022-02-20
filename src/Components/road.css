@@ -26,9 +26,13 @@
     align-content: center;
 }
 
+.sticky{
+    position: fixed;
+    background-color: black;
+}
 
 .space{
-    height: 300px;
+    height: 500px;
 }
 
 .column {
@@ -107,5 +111,8 @@
     -webkit-animation-direction: alternate;
     color: black;
     font-family: "Press Start 2P";
+
+}
+.bone-img{
 
 }

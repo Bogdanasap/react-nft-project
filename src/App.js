@@ -4,9 +4,9 @@ import Header from "./Components/Header";
 import RoadMap from "./Components/RoadMap";
 import Trailer from "./Components/Trailer.js";
 import Footer from "./Components/Footer";
-import Team from "./Components/Team"
-import Faq from "./Components/Faq"
-import About from "./Components/About"
+import Team from "./Components/Team";
+import Faq from "./Components/Faq";
+import About from "./Components/About";
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
@@ -57,18 +57,19 @@ function App() {
       <div className='app'>
         <Header />
           <Trailer />
-            <RoadMap />
-          <h1>Daca nu merge asta ma arunc pe geam</h1>
-          {accounts.length && (
-              <div>
-                  <button onClick={() => setMintAmount(mintAmount - 1)}>-</button>
-                  {mintAmount}
-                  <button onClick={() => setMintAmount(mintAmount + 1)}>+</button>
-                  <button onClick={handleMint}>MINT</button>
-              </div>
-          )}
-                <Faq />
-                <Footer />
+            <About />
+                <RoadMap />
+              <h1>Daca nu merge asta ma arunc pe geam</h1>
+              {accounts.length && (
+                  <div>
+                      <button onClick={() => setMintAmount(mintAmount - 1)}>-</button>
+                      {mintAmount}
+                      <button onClick={() => setMintAmount(mintAmount + 1)}>+</button>
+                      <button onClick={handleMint}>MINT</button>
+                  </div>
+              )}
+                    <Faq />
+                    <Footer />
       </div>
   )
 }

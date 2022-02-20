@@ -10,6 +10,7 @@ import About from "./Components/About"
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
+import Mint from "./Components/Mint";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
@@ -23,6 +24,7 @@ function App() {
           <Trailer />
             <About />
                 <RoadMap />
+                  <Mint/>
                     <Faq />
                         <Footer />
       </div>

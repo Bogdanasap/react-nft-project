@@ -6,6 +6,7 @@ import * as events from "events";
 const Faq = () => {
     return (
         <div className='faq'>
+            <h1>FAQ</h1>
            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
             <body>
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

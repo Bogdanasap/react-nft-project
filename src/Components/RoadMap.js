@@ -1,7 +1,7 @@
 import React from 'react'
 import './road.css'
 import bone from'../assets/bone-removebg-preview.png'
-import nft from'../assets/nft.png'
+import nft from'../assets/Aqua.png'
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "../../src/mintAbi.json"
@@ -65,13 +65,17 @@ const Road = () => {
 
     function numberOfMintsIncrease() {
 
-        if(mintAmount>=1) {
+        if(mintAmount>=1 && mintAmount <= 10) {
             setText("NFTS");
             ok=1;
-            console.log(mintAmount);
+                console.log(mintAmount);
         }
-
+        if(mintAmount >= 10){
+            setMintAmount(10);
+        }
+        else {
             setMintAmount(mintAmount+1)
+        }
     }
 
     let ok =0;

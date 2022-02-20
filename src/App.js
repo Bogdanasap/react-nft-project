@@ -21,9 +21,10 @@ function App() {
       <div className='app'>
         <Header />
           <Trailer />
-            <RoadMap />
-                <Faq />
-                <Footer />
+            <About />
+                <RoadMap />
+                    <Faq />
+                        <Footer />
       </div>
   )
 }

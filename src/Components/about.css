@@ -1,9 +1,12 @@
-.stories{
+.stories p{
     font-family: "Press Start 2P";
-    font-size: 10px;
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 100px;
 }
 
 .story1{
     border: black;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.8);
 }

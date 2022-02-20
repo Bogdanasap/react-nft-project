@@ -1,71 +1,89 @@
-.faq{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    color: white;
-    border-radius: 20px;
-}
-
-h1{
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 15px;
+    box-sizing: inherit;
     font-family: "Press Start 2P";
 }
 
-.accordion {
-    width: 90%;
-    max-width: 1000px;
-    margin: 2rem auto;
+.faq{
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, .8);
+}
+
+section{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .accordion-item{
-    background-color: white;
-    color: #1e1e1e;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    background-color: #ae5cff;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
 }
 
-.accordion-item-header{
-    padding: 0.5rem 3rem 0.5rem 1rem;
-    min-height: 3.5rem;
-    line-height: 1.25rem;
-    font-weight: bold;
+.accordion-link{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    width: 100%;
+    background-color: #ae5cff;
     display: flex;
     align-items: center;
-    position: relative;
-    cursor: pointer;
-    font-family: "Press Start 2P"
+    justify-content: space-between;
+    padding: 1rem 0;
 }
 
-.accordion-item-header::after{
-    content: "+";
-    font-size: 2rem;
+.accordion-link ion-icon{
+    color: rgba(255, 255, 255, .8);
+    padding: .5rem;
+}
+
+.accordion-link .ion add-outline{
+    display: none;
+}
+
+.answer{
+   /*overflow: hidden;
+    max-height: 0;*/
+    position: relative;
+    background-color: #212839;
+    transition: max-height 650ms;
+}
+
+.answer::before{
+    content: "";
     position: absolute;
-    right: 1rem;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
-.accordion-item-header.active::after{
-    content: "-";
+.answer p{
+    color: rgba(255, 255, 255, .8);
+    padding: 2rem;
+    font-size: 1.2rem;
 }
 
-.accordion-item-body{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    position: relative;
-    text-align: left;
-    font-size: large;
+.accordion-item:target .answer{
+    max-height: 20rem;
 }
 
-.accordion-item-body-content{
-    padding: 1rem;
-    line-height: 1.5rem;
-    border-top: 3px solid;
-    border-image: linear-gradient(to right, transparent, #ad66fe, transparent) 1;
-}
-
-.accordion-item-header.active + .accordion-item-body {
-    max-height: 500px;
-}

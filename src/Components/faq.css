@@ -42,14 +42,17 @@
     padding: 0;
     max-height: 0;
     overflow: hidden;
+    position: relative;
+    background-color: #212839;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
-.content.show{
-
+.content.show{;
     height: 20px;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+    position: relative;
+    background-color: #212839;
 }
 
 .contents{

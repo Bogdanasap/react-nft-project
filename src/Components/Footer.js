@@ -6,6 +6,11 @@ import twitterIcon from "../assets/assets_website/pngwing.com.png";
 import dubbsLogo from "../assets/header/img.png";
 
 const Footer = () => {
+
+    function moveToMint() {
+        window.scrollTo(0,1050);
+    }
+
     return (
         <div className='footer'>
             <div className='footerLogoContainer'>
@@ -28,11 +33,10 @@ const Footer = () => {
                     <img src={twitterIcon}/>
                     <a href="https://twitter.com/home"></a>
                 </div>
-
-                <div className='mintButton'>
-                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
-                    Mint
-                </div>
+                    <button onClick={moveToMint} className='mintButton'>
+                        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+                        Mint
+                    </button>
             </div>
         </div>
     )

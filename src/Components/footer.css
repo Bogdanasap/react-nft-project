@@ -10,6 +10,7 @@
 .footerActions{
     display: flex;
     right: 1rem;
+    cursor: pointer;
 }
 
 .footerLogo{

@@ -28,6 +28,7 @@
     color: #a1a5b0;
     font-family: "Press Start 2P";
     size: auto;
+    cursor: pointer;
 }
 
 .headerItems > p{
@@ -36,7 +37,7 @@
 
 .headerActions{
     display: flex;
-    right: 1rem;
+    right: 1rem;cursor: pointer;
 }
 
 .headerActions > div{
@@ -92,7 +93,7 @@
     -webkit-animation-direction: alternate;
     color: black;
     font-family: "Press Start 2P";
-
+    cursor: pointer;
 }
 
 

@@ -36,27 +36,7 @@ const Road = () => {
 
 
         <div className='road-map'>
-            <div className="space">
-
-            </div>
-            <div className="row">
-           <div className="dot">
-               <img src={bone}/>
-           </div>
-
-            <div className='dot'>
-
-            </div>
-
-            <div className='dot'>
-
-            </div>
-
-            <div className='dot'>
-
-            </div>
-            </div>
-
+            ROADMAP
         </div>
     )
 

@@ -1,10 +1,10 @@
-.road-map{
-    height: 1400px;
+.mint{
+    height: 100px;
     width: auto;
     margin-top: auto;
     position: relative;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 300px;
 }
 
 
@@ -96,6 +96,7 @@
     padding: 10px 10px;
     -webkit-animation-direction: alternate;
     color: black;
+    cursor: pointer;
     font-family: "Press Start 2P";
 
 }
@@ -106,6 +107,7 @@
     padding: 10px 10px;
     -webkit-animation-direction: alternate;
     color: black;
+    cursor: pointer;
     font-family: "Press Start 2P";
 
 }

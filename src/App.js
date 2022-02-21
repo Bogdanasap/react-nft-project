@@ -20,13 +20,13 @@ function App() {
 
   return (
       <div className='app'>
-        <Header />
-          <Trailer />
-            <About />
-                <RoadMap />
+        <Header/>
+          <Trailer/>
+            <About/>
+                <RoadMap/>
                   <Mint/>
-                    <Faq />
-                        <Footer />
+                    <Faq/>
+                        <Footer/>
       </div>
   )
 }

@@ -98,7 +98,7 @@ const Mint = () => {
 
 
     return (
-        <div className='road-map'>
+        <div className='mint'>
         <div className="column">
             <div className="card">
                 <img className='contract-pic' src={nft}/>

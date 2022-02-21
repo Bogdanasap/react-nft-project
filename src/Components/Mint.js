@@ -53,8 +53,10 @@ const Mint = () => {
             ok = 0;
             console.log(mintAmount);
         }
-
-        if (mintAmount >= 1)
+        if(mintAmount <= 1){
+            setMintAmount(1);
+        }
+        if (mintAmount > 1)
             setMintAmount(mintAmount - 1)
 
     }

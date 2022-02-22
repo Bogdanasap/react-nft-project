@@ -68,8 +68,6 @@ const Mint = () => {
 
         if (mintAmount <= 2) {
             setText("NFT");
-            ok = 0;
-            console.log(mintAmount);
         }
         if(mintAmount <= 1){
             setMintAmount(1);
@@ -83,8 +81,6 @@ const Mint = () => {
 
         if (mintAmount >= 1 && mintAmount <= 10) {
             setText("NFTS");
-            ok = 1;
-            console.log(mintAmount);
         }
         if (mintAmount >= 10) {
             setMintAmount(10);
@@ -122,7 +118,7 @@ const Mint = () => {
             <div className="card">
                 <img className='contract-pic' src={nft}/>
                 <div className="container">
-                    <h2>{meta}</h2>
+                    <a href="https://metamask.io/download/" className="line">{meta}</a>
                     <p className="title">Daca nu merge asta ma arunc pe geam</p>
                     {accounts.length && (
                         <div>

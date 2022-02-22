@@ -9,6 +9,11 @@
 .item {
     margin: 20px;
     padding: 10px;
+    border-color: #f95984;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
 }
 
 .faq{
@@ -20,17 +25,13 @@
 .title {
     display: flex;
     justify-content: space-between;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    border-style: solid;
     margin-bottom: 10px;
 }
 
 .title button{
     background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
     font-size: 20px;
+    border: #f95984;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -49,13 +50,13 @@
     overflow: hidden;
     position: relative;
     background-color: #212839;
-    transition: all 0.2s cubic-bezier(0,1,0,1);
+    transition: all 2s ease;
 }
 
 .content.show{;
     height: 20px;
     max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
+    transition: all 2s ease;
     position: relative;
     background-color: #212839;
 }

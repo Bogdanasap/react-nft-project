@@ -16,17 +16,21 @@ const Mint = () => {
                 method: "eth_requestAccounts",
             });
             setAccounts(accounts);
+            connectMetaMask();
         }
     }
 
     useEffect(() => {
         connectAccounts();
+
     }, []);
 
 //MINTAT COAIE//
 
     const [mintAmount, setMintAmount] = useState(1);
     const [text, setText] = useState(["NFT"]);
+    const [meta, setMetaMask] = useState("Please connect your wallet");
+
 
     async function handleMint() {
         if (window.ethereum) {
@@ -45,6 +49,20 @@ const Mint = () => {
             }
         }
     }
+
+    function connectMetaMask() {
+        if (window.ethereum) {
+            setMetaMask("Buy NFT");
+        }
+        if (!window.ethereum) {
+            setMetaMask("Please connect your wallet");
+        }
+
+    }
+
+
+
+
 
     function numberOfMintsDecrease() {
 
@@ -89,6 +107,7 @@ const Mint = () => {
 
     function functions1() {
         numberOfMintsIncrease()
+        connectMetaMask()
         showMint();
     }
 
@@ -103,7 +122,7 @@ const Mint = () => {
             <div className="card">
                 <img className='contract-pic' src={nft}/>
                 <div className="container">
-                    <h2>Dog 1</h2>
+                    <h2>{meta}</h2>
                     <p className="title">Daca nu merge asta ma arunc pe geam</p>
                     {accounts.length && (
                         <div>

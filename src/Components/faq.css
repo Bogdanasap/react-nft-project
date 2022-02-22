@@ -24,16 +24,19 @@
 
 .title {
     display: flex;
+    margin-bottom: 30px;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
 .title button{
     background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
+    width: 40px;
+    min-width: 20px;
+    min-height: 20px;
     font-size: 20px;
     border: #f95984;
     padding: 10px;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -53,7 +56,7 @@
     transition: all 2s ease;
 }
 
-.content.show{;
+.content.show{
     height: 20px;
     max-height: 9999px;
     transition: all 2s ease;

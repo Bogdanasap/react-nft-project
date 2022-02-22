@@ -7,7 +7,6 @@
 
 
 .item {
-    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
     margin: 20px;
     padding: 10px;
 }
@@ -21,14 +20,20 @@
 .title {
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
     margin-bottom: 10px;
 }
 
-.title span{
-    color: rgba(255, 255, 255, 0.8);
+.title button{
+    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
     font-size: 20px;
     padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .title h2{
@@ -44,7 +49,7 @@
     overflow: hidden;
     position: relative;
     background-color: #212839;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
+    transition: all 0.2s cubic-bezier(0,1,0,1);
 }
 
 .content.show{;

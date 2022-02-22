@@ -29,9 +29,21 @@
     margin-bottom: 10px;
 }
 
-.title button{
+button.plus{
+    content: "+";
+    background: linear-gradient(to bottom, #f95984, rgb(255, 51, 51));
+    width: 40px;
+    min-width: 20px;
+    min-height: 20px;
+    font-size: 20px;
+    border: #f95984;
+    padding: 10px;
+    cursor: pointer;
+}
 
-    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
+.minus{
+    content: "-";
+    background: linear-gradient(to top, #f95984, rgb(255, 51, 51));
     width: 40px;
     min-width: 20px;
     min-height: 20px;

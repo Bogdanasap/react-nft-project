@@ -26,7 +26,7 @@ const Faq = () => {
                     <div className='item'>
                         <div className='title' >
                             <h2>{item.question}</h2>
-                            <button onClick={() => toggle(i)}>{selected == i ? '-' : '+'}</button>
+                            <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                         </div>
                         <div className='contents'>
                             <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
@@ -47,6 +47,10 @@ const data = [
         question: 'How many are there?',
         answer:
             '10K boiiii',
+    },
+    {
+        question: 'Where can I ask more questions?',
+        answer: 'Join our discord, where our admins will try to respond promptly',
     }
 ]
 

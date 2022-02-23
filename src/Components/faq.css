@@ -68,20 +68,22 @@ button.plus{
     overflow: hidden;
     position: relative;
     background-color: #212839;
-    transition: bottom 2s;
+    transition: width 2s;
 }
 
 .content.show{
     height: 40px;
     max-height: 9999px;
-    transition: bottom 2s;
     position: relative;
     background-color: #212839;
+    transition: width 5s;
+    transition-delay: 3s;
 }
 
 .contents{
-    transition: bottom 2s;
+    transition: width 5s;
     color: rgba(255, 255, 255, 0.8);
     font-size: 30px;
     text-align: left;
+    transition-delay: 3s;
 }

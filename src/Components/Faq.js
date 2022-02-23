@@ -10,10 +10,9 @@ const Faq = () => {
 
     const toggle = (i) => {
         if(selected == i){
-            return setSelected(null)
+            return setSelected(null);
         }
-
-        setSelected(i)
+        setSelected(i);
     }
 
     return (
@@ -24,7 +23,7 @@ const Faq = () => {
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             {data.map((item, i) => (
                     <div className='item'>
-                        <div className='title' >
+                        <div className='title'>
                             <h2>{item.question}</h2>
                             <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                         </div>

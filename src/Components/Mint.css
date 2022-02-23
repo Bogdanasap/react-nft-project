@@ -38,7 +38,7 @@
 .column {
     float: right;
     width: 400px;
-    height: 500px;
+    height: 600px;
     margin-right: 5%;
    /* background-color: white; */
 }
@@ -59,7 +59,7 @@
 
 /* Some left and right padding inside the container */
 .container {
-  height: 108px;
+  height: 208px;
 }
 
 /* Clear floats */
@@ -102,7 +102,7 @@
     color: black;
     cursor: pointer;
     font-family: "Archive";
-
+    font-weight: bold;
 }
 
 .mint-button-sign {
@@ -114,6 +114,7 @@
     cursor: pointer;
     font-family: "Archive";
     margin: 5px;
+    font-weight: bold;
 }
 .bone-img{
 

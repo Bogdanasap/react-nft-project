@@ -33,6 +33,7 @@ const Mint = () => {
 //MINTAT COAIE//
 
     const [mintAmount, setMintAmount] = useState(1);
+    const [sum, setSum] = useState(0.123);
     const [text, setText] = useState(["NFT"]);
     const [meta, setMetaMask] = useState("Please connect your wallet");
     const [href, sethref] = useState("https://metamask.io/download/");
@@ -70,7 +71,6 @@ const Mint = () => {
 
 
 
-
     function numberOfMintsDecrease() {
 
         if (mintAmount <= 2) {
@@ -79,8 +79,10 @@ const Mint = () => {
         if(mintAmount <= 1){
             setMintAmount(1);
         }
-        if (mintAmount > 1)
+        if (mintAmount > 1) {
             setMintAmount(mintAmount - 1)
+            setSum(sum-0.123);
+        }
 
     }
 
@@ -93,6 +95,7 @@ const Mint = () => {
             setMintAmount(10);
         } else {
             setMintAmount(mintAmount + 1)
+            setSum(sum+0.123);
         }
     }
 
@@ -122,6 +125,10 @@ const Mint = () => {
         onboarding.startOnboarding();
     }
 
+    function calculator() {
+
+    }
+
 
     /////////////METAMASK COAIE/////////////
 
@@ -143,6 +150,7 @@ const Mint = () => {
                             <button onClick={functions} className="mint-button-sign">-</button>
                             <button onClick={functions2} className="mint-button">MINT {mintAmount} {text}</button>
                             <button className="mint-button-sign" onClick={functions1}>+</button>
+                            <p className="mint-button">{sum} ETH</p>
                         </div>
                     )}
                 </div>

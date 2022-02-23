@@ -11,30 +11,44 @@ const Footer = () => {
         window.scrollTo(0,1050);
     }
 
+    function moveToTop(){
+        window.scrollTo(0, 0);
+    }
+
+    function moveToTwitter(){
+        window.location.href = "https://twitter.com/nftshub";
+    }
+
+    function moveToDiscord(){
+        window.location.href = "http://discord.gg/ZjtUSx9DjK";
+    }
+
+    function moveToInsta(){
+        window.location.href = "https://www.instagram.com/nftshub/";
+    }
+
     return (
         <div className='footer'>
-            <div className='footerLogoContainer'>
+            <div className='footerLogoContainer' onClick={moveToTop}>
                 <img src={dubbsLogo} className='footerLogo' />
             </div>
 
             <div className='footerActions'>
 
-                <div className='discordContainer'>
+                <div className='discordContainer' onClick={moveToDiscord}>
                     <img src={discordIcon}/>
                     <a href="https://discord.com/"></a>
                 </div>
 
-                <div className='instagramContainer'>
+                <div className='instagramContainer' onClick={moveToInsta}>
                     <img src={instagramIcon}/>
-                    <a href="https://www.instagram.com"></a>
                 </div>
 
-                <div className='twitterContainer'>
+                <div className='twitterContainer' onClick={moveToTwitter}>
                     <img src={twitterIcon}/>
-                    <a href="https://twitter.com/home"></a>
                 </div>
                     <button onClick={moveToMint} className='mintButton'>
-                        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+                        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
                         Mint
                     </button>
             </div>

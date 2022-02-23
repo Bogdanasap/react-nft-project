@@ -21,7 +21,7 @@ const Faq = () => {
             <div className='faq'>
                 <h1>FAQ</h1>
             </div>
-           <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             {data.map((item, i) => (
                     <div className='item'>
                         <div className='title' >

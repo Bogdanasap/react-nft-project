@@ -6,7 +6,6 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Press Start 2P";
 }
 
 .header > div{
@@ -26,8 +25,7 @@
 .headerItems{
     display: flex;
     color: #a1a5b0;
-    font-family: "Press Start 2P";
-    size: auto;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -92,7 +90,6 @@
     padding: 15px 40px;
     -webkit-animation-direction: alternate;
     color: black;
-    font-family: "Press Start 2P";
     cursor: pointer;
 }
 

@@ -5,7 +5,7 @@ import { ethers, BigNumber } from "ethers";
 import App from "../App";
 
 const ONBOARD_TEXT = 'CLICK HERE TO INSTALL METAMASK!';
-const CONNECT_TEXT = 'CONNECT TO METAMASK';
+const CONNECT_TEXT = 'CONNECT TO METAMASK!';
 const CONNECTED_TEXT = 'YOUR WALLET IS CONNECTED!!';
 
 
@@ -61,12 +61,17 @@ const Metamask = () => {
         }
     };
 
+    function clickRefresh(){
+        onClick();
+        window.location.reload();
+    }
+
 
 
 
 
     return (
-        <button className="mint-button-sign" disabled={isDisabled} onClick={onClick}>
+        <button className="mint-button-sign" disabled={isDisabled} onClick={clickRefresh}>
             {buttonText}
         </button>
     );

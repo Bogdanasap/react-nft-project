@@ -10,6 +10,7 @@
     display: flex;
     color: rgba(255, 255, 255, 0.8);
     padding: 5px;
+    font-family: Roboto;
     align-items: center;
     margin-bottom: 50px;
 }
@@ -20,8 +21,10 @@
 }
 
 .story2{
+
     color: rgba(255, 255, 255, 0.8);
     padding: 5px;
+    font-family: Roboto-Black;
     align-items: center;
     display: flex;
 }
@@ -35,7 +38,7 @@
     width: fit-content;
     height: fit-content;
     background-color: #000;
-    border: 20px solid transparent;
+    border: 10px solid transparent;
     padding: 10px;
     margin: 100px;
 
@@ -46,7 +49,7 @@
     width: fit-content;
     height: fit-content;
     background-color: #000;
-    border: 20px solid transparent;
+    border: 10px solid transparent;
     padding: 10px;
     margin: 100px;
 

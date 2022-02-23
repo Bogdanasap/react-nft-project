@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./Fonts/Roboto/Roboto-Bold.ttf";
+import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
+import "./Fonts/Archive/Archive/Commercial/TTF/Archive-Regular.ttf";
+import "./Fonts/Roboto/Roboto-Black.ttf";
 
 ReactDOM.render(
   <React.StrictMode>

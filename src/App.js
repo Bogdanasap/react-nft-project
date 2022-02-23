@@ -12,6 +12,10 @@ import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
 import Mint from "./Components/Mint";
+import "./Fonts/Roboto/Roboto-Bold.ttf";
+import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
+import "./Fonts/Archive/Archive/Commercial/TTF/Archive-Regular.ttf";
+import "./Fonts/Roboto/Roboto-Black.ttf";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 

@@ -6,6 +6,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: Archive;
 }
 
 .header > div{
@@ -61,7 +62,7 @@
     display: flex;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     object-fit: contain;
@@ -92,6 +93,7 @@
     -webkit-animation-direction: alternate;
     color: black;
     cursor: pointer;
+    font-family: Archive;
 }
 
 

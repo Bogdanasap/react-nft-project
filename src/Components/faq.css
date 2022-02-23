@@ -2,12 +2,11 @@
     font-size: 20px;
     margin-bottom: 100px;
     margin-top: 400px;
-
 }
 
 
 .item {
-    margin: 20px;
+    margin: 45px;
     padding: 10px;
     border-color: #f95984;
     border-top: transparent;
@@ -19,7 +18,7 @@
 .faq{
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
-    font-family: "Press Start 2P";
+    font-size: 45px;
 }
 
 .title {
@@ -32,11 +31,13 @@
 button.plus{
     content: "+";
     background: linear-gradient(to bottom, #f95984, rgb(255, 51, 51));
-    width: 40px;
+    width: 45px;
+    height: 45px;
     min-width: 20px;
     min-height: 20px;
-    font-size: 20px;
+    font-size: 25px;
     border: #f95984;
+    text-align: center;
     padding: 10px;
     cursor: pointer;
 }
@@ -44,10 +45,12 @@ button.plus{
 .minus{
     content: "-";
     background: linear-gradient(to top, #f95984, rgb(255, 51, 51));
-    width: 40px;
+    width: 45px;
+    height: 45px;
+    color: black;
     min-width: 20px;
     min-height: 20px;
-    font-size: 20px;
+    font-size: 25px;
     border: #f95984;
     padding: 10px;
     cursor: pointer;
@@ -55,9 +58,8 @@ button.plus{
 
 .title h2{
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20px;
+    font-size: 35px;
     padding: 10px;
-    font-family: "Press Start 2P";
 }
 
 .content {
@@ -66,20 +68,20 @@ button.plus{
     overflow: hidden;
     position: relative;
     background-color: #212839;
-    transition: all 2s ease;
+    transition: bottom 2s;
 }
 
 .content.show{
-    height: 20px;
+    height: 40px;
     max-height: 9999px;
-    transition: all 2s ease;
+    transition: bottom 2s;
     position: relative;
     background-color: #212839;
 }
 
 .contents{
-    font-family: "Press Start 2P";
+    transition: bottom 2s;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 15px;
+    font-size: 30px;
     text-align: left;
 }

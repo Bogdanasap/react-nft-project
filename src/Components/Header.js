@@ -25,13 +25,25 @@ const Header = () => {
         window.scrollTo(0,800);
     }
 
+    function moveToTwitter(){
+        window.location.href = "https://twitter.com/nftshub";
+    }
+
+    function moveToDiscord(){
+        window.location.href = "http://discord.gg/ZjtUSx9DjK";
+    }
+
+    function moveToInsta(){
+        window.location.href = "https://www.instagram.com/nftshub/";
+    }
+
 
     return (
 
 
 
         <div className='header'>
-            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
@@ -41,13 +53,13 @@ const Header = () => {
                 <p onClick={moveToFAQ}>FAQ</p>
             </div>
             <div className='headerActions'>
-                <div className='discordContainer'>
+                <div className='discordContainer' onClick={moveToDiscord}>
                     <img src={discordIcon}/>
                 </div>
-                <div className='instagramContainer'>
+                <div className='instagramContainer' onClick={moveToInsta}>
                     <img src={instagramIcon}/>
                 </div>
-                <div className='twitterContainer'>
+                <div className='twitterContainer' onClick={moveToTwitter}>
                     <img src={twitterIcon}/>
                 </div>
             </div>

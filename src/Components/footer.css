@@ -16,6 +16,7 @@
 .footerLogo{
     width: 100px;
     left: 1rem;
+    cursor: pointer;
 }
 
 .footerActions > div{
@@ -73,6 +74,6 @@
     padding: 15px 40px;
     -webkit-animation-direction: alternate;
     color: black;
-    font-family: "Press Start 2P";
+    font-size: 20px;
 }
 

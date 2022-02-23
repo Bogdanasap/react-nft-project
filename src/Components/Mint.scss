@@ -1,0 +1,53 @@
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.rainbow {
+  position: relative;
+  z-index: 0;
+  width: 400px;
+  height: 512px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(224, 85%, 66%),
+                    hsl(269, 85%, 66%),
+                    hsl(314, 85%, 66%),
+                    hsl(359, 85%, 66%),
+                    hsl(44, 85%, 66%),
+                    hsl(89, 85%, 66%),
+                    hsl(134, 85%, 66%),
+                    hsl(179, 85%, 66%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}

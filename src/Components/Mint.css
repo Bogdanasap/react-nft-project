@@ -37,10 +37,10 @@
 
 .column {
     float: right;
-    width: 25%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+    width: 400px;
+    height: 500px;
     margin-right: 5%;
+   /* background-color: white; */
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -53,13 +53,13 @@
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: relative;
+    background-color: #1e1e1e;
 }
 
 /* Some left and right padding inside the container */
 .container {
-    padding: 0 16px;
+  height: 108px;
 }
 
 /* Clear floats */
@@ -113,8 +113,13 @@
     color: black;
     cursor: pointer;
     font-family: "Press Start 2P";
-
+    margin: 5px;
 }
 .bone-img{
 
 }
+
+
+
+
+

@@ -1,10 +1,15 @@
 import React from 'react'
+import MetaMaskOnboarding from '@metamask/onboarding';
 import './Mint.css'
+import "./Mint.scss"
 import nft from'../assets/Aqua.png'
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "../../src/mintAbi.json"
+import Metamask from "./Metamask";
+import caine from "../assets/owner/Caine_Web3.jpeg";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const onboarding = new MetaMaskOnboarding();
 
 const Mint = () => {
 
@@ -30,7 +35,7 @@ const Mint = () => {
     const [mintAmount, setMintAmount] = useState(1);
     const [text, setText] = useState(["NFT"]);
     const [meta, setMetaMask] = useState("Please connect your wallet");
-
+    const [href, sethref] = useState("https://metamask.io/download/");
 
     async function handleMint() {
         if (window.ethereum) {
@@ -53,9 +58,11 @@ const Mint = () => {
     function connectMetaMask() {
         if (window.ethereum) {
             setMetaMask("Buy NFT");
+            sethref("javascript:;")
         }
         if (!window.ethereum) {
             setMetaMask("Please connect your wallet");
+            sethref("https://metamask.io/download/")
         }
 
     }
@@ -111,15 +118,26 @@ const Mint = () => {
         handleMint()
     }
 
+    function metaMask() {
+        onboarding.startOnboarding();
+    }
+
+
+    /////////////METAMASK COAIE/////////////
+
+
+    //<a href={href} className="line">{meta}</a>
+
+    ////////////////////////////////////////
+
 
     return (
         <div className='mint'>
-        <div className="column">
+        <div className="column rainbow">
             <div className="card">
-                <img className='contract-pic' src={nft}/>
+                <img className='contract-pic' src={caine}/>
                 <div className="container">
-                    <a href="https://metamask.io/download/" className="line">{meta}</a>
-                    <p className="title">Daca nu merge asta ma arunc pe geam</p>
+                    <Metamask/>
                     {accounts.length && (
                         <div>
                             <button onClick={functions} className="mint-button-sign">-</button>

@@ -1,13 +1,15 @@
 import React from 'react'
 import './about.css'
+import nft1 from '../Nfts/img.png';
+import nft2 from '../Nfts/img_1.png';
 
 const About = () => {
     return (
         <div className='stories'>
-            <div className='box1'>
+
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 <div className="story1">
-
+                    <div className='box1'>
                         <h2>WHAT IS DRIPPYDOBS?</h2>
                     <p>
                         DrippyDobs is a collection of 10,000 Dobberman NFTs.
@@ -16,9 +18,10 @@ const About = () => {
                         What if they created a virtual world full of beautiful dobermans and put it on a blockchain so that every dog enthusiast could get their very own drippy doberman.
                     </p>
                 </div>
+                    <img src={nft1} className='image1'/>
             </div>
-            <div className='box2'>
                  <div className="story2">
+                     <div className='box2'>
                        <h2>WHAT IS DOBBERLADS?</h2>
                      <p>
                         DobberLads is a team of 5 guys that share a passion for dogs.
@@ -27,6 +30,7 @@ const About = () => {
                         We have nothing but good intentions for our fans and the environment and we'd love to welcome you guys in our community.
                     </p>
                 </div>
+                     <img src={nft2} className='image2'/>
             </div>
         </div>
     )

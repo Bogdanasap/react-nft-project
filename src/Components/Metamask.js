@@ -21,12 +21,19 @@ const Metamask = () => {
         }
     }, []);
 
+
     React.useEffect(() => {
         if (MetaMaskOnboarding.isMetaMaskInstalled()) {
             if (accounts.length > 0) {
                 setButtonText(CONNECTED_TEXT);
                 setDisabled(true);
                 onboarding.current.stopOnboarding();
+                window.onload = function() {
+                    if(!window.location.hash) {
+                        window.location = window.location + '#loaded';
+                        window.location.reload();
+                    }
+                }
             } else {
                 setButtonText(CONNECT_TEXT);
                 setDisabled(false);

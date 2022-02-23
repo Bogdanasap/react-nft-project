@@ -21,6 +21,7 @@ const About = () => {
                     <img src={nft1} className='image1'/>
             </div>
                  <div className="story2">
+                     <img src={nft2} className='image2'/>
                      <div className='box2'>
                        <h2>WHAT IS DOBBERLADS?</h2>
                      <p>
@@ -30,7 +31,6 @@ const About = () => {
                         We have nothing but good intentions for our fans and the environment and we'd love to welcome you guys in our community.
                     </p>
                 </div>
-                     <img src={nft2} className='image2'/>
             </div>
         </div>
     )

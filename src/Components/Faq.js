@@ -22,16 +22,16 @@ const Faq = () => {
             </div>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             {data.map((item, i) => (
-                    <div className='item'>
-                        <div className='title'>
-                            <h2>{item.question}</h2>
-                            <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
-                        </div>
-                        <div className='contents'>
-                            <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
-                        </div>
+                <div className='item'>
+                    <div className='title'>
+                        <h2>{item.question}</h2>
+                        <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
-                ))}
+                    <div className='contents'>
+                        <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
+                    </div>
+                </div>
+            ))}
         </div>
     )
 }
@@ -54,4 +54,3 @@ const data = [
 ]
 
 export default Faq
-

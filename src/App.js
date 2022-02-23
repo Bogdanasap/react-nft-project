@@ -11,6 +11,7 @@ import About from "./Components/About"
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
+import FaqJr from "./Components/FaqJr";
 import Mint from "./Components/Mint";
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";

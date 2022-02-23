@@ -68,7 +68,7 @@ button.plus{
     overflow: hidden;
     position: relative;
     background-color: #212839;
-    transition: width 2s;
+    transition: opacity 300ms, transform 300ms;
 }
 
 .content.show{
@@ -81,9 +81,8 @@ button.plus{
 }
 
 .contents{
-    transition: width 5s;
     color: rgba(255, 255, 255, 0.8);
     font-size: 30px;
     text-align: left;
-    transition-delay: 3s;
+    transition: opacity 300ms, transform 300ms;
 }

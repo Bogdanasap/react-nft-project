@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
-import "./Fonts/Archive/Archive/Commercial/TTF/Archive-Regular.ttf";
+import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
 
 ReactDOM.render(

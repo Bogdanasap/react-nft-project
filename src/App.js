@@ -15,7 +15,7 @@ import FaqJr from "./Components/FaqJr";
 import Mint from "./Components/Mint";
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
-import "./Fonts/Archive/Archive/Commercial/TTF/Archive-Regular.ttf";
+import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
@@ -31,8 +31,9 @@ function App() {
             <About/>
                 <RoadMap/>
                   <Mint/>
-                    <Faq/>
-                        <Footer/>
+                    <Team/>
+                        <Faq/>
+                            <Footer/>
       </div>
   )
 }

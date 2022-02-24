@@ -1,0 +1,143 @@
+.developerContainer{
+    border-bottom:5px #f95984;
+    border-style: solid;
+
+}
+
+.marketingContainer{
+    border-bottom:5px #f95984;
+    border-style: solid;
+}
+
+.designContainer{
+    border-bottom:5px #f95984;
+    border-style: solid;
+}
+
+.marketingh2{
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.marketing1h3{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.marketing2h3{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.devh3{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 345px;
+    margin-right: 350px;
+}
+
+.devh2{
+    margin-top: 750px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.designh2{
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.designh3{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.images1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 50px;
+}
+
+.calin{
+    height: 200px;
+    width: 200px;
+}
+
+.radu{
+    height: 200px;
+    width: 200px;
+}
+
+.vlad{
+    height: 200px;
+    width: 200px;
+}
+
+.stefan{
+    height: 200px;
+    width: 200px;
+}
+
+.boboc{
+    height: 200px;
+    width: 200px;
+}
+
+.bogdan{
+    height: 200px;
+    width: 200px;
+}
+
+.ana{
+    height: 200px;
+    width: 200px;
+}
+
+.images2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 50px;
+}
+
+.images3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 50px;
+}
+
+.images4{
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 50px;
+}

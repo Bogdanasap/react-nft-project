@@ -3,10 +3,12 @@ import React from 'react';
 import './Mint.css'
 import { ethers, BigNumber } from "ethers";
 import App from "../App";
+import {Web3Provider} from "@ethersproject/providers";
 
 const ONBOARD_TEXT = 'CLICK HERE TO INSTALL METAMASK!';
 const CONNECT_TEXT = 'CONNECT TO METAMASK!';
 const CONNECTED_TEXT = 'YOUR WALLET IS CONNECTED!!';
+
 
 
 const Metamask = () => {
@@ -22,24 +24,21 @@ const Metamask = () => {
     }, []);
 
 
+
     React.useEffect(() => {
         if (MetaMaskOnboarding.isMetaMaskInstalled()) {
             if (accounts.length > 0) {
                 setButtonText(CONNECTED_TEXT);
-                setDisabled(true);
+                setDisabled(false);
                 onboarding.current.stopOnboarding();
-                window.onload = function() {
-                    if(!window.location.hash) {
-                        window.location = window.location + '#loaded';
-                        window.location.reload();
-                    }
-                }
+
             } else {
                 setButtonText(CONNECT_TEXT);
                 setDisabled(false);
             }
         }
     }, [accounts]);
+
 
     React.useEffect(() => {
         function handleNewAccounts(newAccounts) {
@@ -72,7 +71,6 @@ const Metamask = () => {
         onClick();
         window.location.reload();
     }
-
 
 
 

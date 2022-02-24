@@ -129,6 +129,11 @@ const Mint = () => {
 
     }
 
+    function refresh () {
+        window.location.reload();
+    }
+
+
 
     /////////////METAMASK COAIE/////////////
 
@@ -145,12 +150,13 @@ const Mint = () => {
                 <img className='contract-pic' src={caine}/>
                 <div className="container">
                     <Metamask/>
+                    <button className="mint-button-sign" onClick={refresh}>Refresh</button>
                     {accounts.length && (
                         <div>
                             <button onClick={functions} className="mint-button-sign">-</button>
                             <button onClick={functions2} className="mint-button">MINT {mintAmount} {text}</button>
                             <button className="mint-button-sign" onClick={functions1}>+</button>
-                            <p className="mint-button">{sum} ETH</p>
+                            <p className="mint-button-sign">TOTAL: {sum} ETH</p>
                         </div>
                     )}
                 </div>

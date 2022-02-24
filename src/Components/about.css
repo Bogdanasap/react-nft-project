@@ -1,7 +1,7 @@
 .stories p{
     display: flex;
     align-items: center;
-    font-size: 31px;
+    font-size: 29px;
     text-align: left;
     margin-top: 10px;
 }
@@ -16,8 +16,9 @@
 }
 
 .image1{
-    height: 400px;
-    width: 400px;
+    display: flex;
+    height: 405px;
+    width: 405px;
     margin-right: 100px;
 }
 

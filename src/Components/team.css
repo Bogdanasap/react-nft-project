@@ -55,7 +55,7 @@
 }
 
 .devh2{
-    margin-top: 750px;
+    margin-top: 500px;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -109,7 +109,7 @@
     width: 200px;
 }
 
-.bogdan{
+.bogdan {
     height: 200px;
     width: 200px;
 }
@@ -136,8 +136,7 @@
 }
 
 .images4{
-    justify-content: space-between;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 42%;
+
     margin-bottom: 50px;
 }

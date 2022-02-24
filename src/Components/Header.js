@@ -53,14 +53,14 @@ const Header = () => {
                 <p onClick={moveToFAQ}>FAQ</p>
             </div>
             <div className='headerActions'>
-                <div className='discordContainer' onClick={moveToDiscord}>
-                    <img src={discordIcon}/>
-                </div>
-                <div className='instagramContainer' onClick={moveToInsta}>
+                <div className="instagramContainer" onClick={moveToInsta}>
                     <img src={instagramIcon}/>
                 </div>
-                <div className='twitterContainer' onClick={moveToTwitter}>
+                <div className="twitterContainer" onClick={moveToTwitter}>
                     <img src={twitterIcon}/>
+                </div>
+                <div className="discordContainer" onClick={moveToDiscord}>
+                    <img src={discordIcon}/>
                 </div>
             </div>
             <button onClick={moveToMint} className='mintButton'>

@@ -47,11 +47,12 @@ const Footer = () => {
                 <div className='twitterContainer' onClick={moveToTwitter}>
                     <img src={twitterIcon}/>
                 </div>
-                    <button onClick={moveToMint} className='mintButton'>
-                        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
-                        Mint
-                    </button>
+
             </div>
+            <button onClick={moveToMint} className='mintButton'>
+                <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
+                Mint
+            </button>
         </div>
     )
 }

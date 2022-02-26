@@ -19,12 +19,10 @@ const About = () => {
                         What if they created a virtual world full of beautiful dobermans and put it on a blockchain so that every dog enthusiast could get their very own drippy doberman.
                     </p>
                 </div>
-                    <div className="image1 rainbow5">
                         <img src={nft1} className='image1'/>
-                    </div>
             </div>
                  <div className="story2">
-                     <img src={nft2} className='image2 rainbow8'/>
+                        <img src={nft2} className='image2'/>
                      <div className='box2'>
                        <h2>WHAT IS DOBBERLADS?</h2>
                      <p>

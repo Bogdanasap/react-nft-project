@@ -346,11 +346,53 @@
   }
 }
 
-rainbow8 {
+.rainbow9 {
   position: relative;
   z-index: 0;
-  width: 500px;
-  height: 500px;
+  height: 305px;
+  width: 305px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(306, 29%, 87%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 3s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow8 {
+  position: relative;
+  z-index: 0;
+  width: 605px;
+  height: 605px;
   overflow: hidden;
   padding: 0.5rem;
 

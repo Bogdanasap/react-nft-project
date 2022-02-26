@@ -37,12 +37,60 @@
 .headerActions{
     display: flex;
     right: 1rem;
+    justify-content: space-between;
     cursor: pointer;
 }
 
+.footerActions > div{
+    margin: 10px;
+}
+
 .discordContainer{
-    background: rgba(255, 255, 255, 0.8);
-    margin-right: 100px;
+    display: flex;
+    background-color: rgba(255, 255, 255, .8);
+    width: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.discordContainer > img{
+    height: 20px;
+}
+
+.instagramContainer{
+    display: flex;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    padding: 10px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.instagramContainer > img{
+    height: 20px;
+}
+
+.twitterContainer{
+    display: flex;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.twitterContainer > img{
+    height: 20px;
 }
 
 

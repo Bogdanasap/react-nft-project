@@ -1,3 +1,8 @@
+.space{
+    height: 400px;
+    width: 100%;
+}
+
 .developerContainer{
     border-bottom:5px #f95984;
     border-style: solid;

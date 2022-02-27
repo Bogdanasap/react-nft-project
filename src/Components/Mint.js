@@ -162,8 +162,10 @@ const Mint = () => {
                 </div>
             </div>
         </div>
-            </div>
+            <div className="space">
 
+            </div>
+        </div>
     )
 }
 

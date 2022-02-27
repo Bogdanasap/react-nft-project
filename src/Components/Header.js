@@ -37,10 +37,17 @@ const Header = () => {
         window.location.href = "https://www.instagram.com/nftshub/";
     }
 
+    const [counter, setCounter] = React.useState(60);
+
+    // Timer
+    React.useEffect(() => {
+        const timer =
+            counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+        return () => clearInterval(timer);
+    }, [counter]);
+
 
     return (
-
-
 
         <div className='header'>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>

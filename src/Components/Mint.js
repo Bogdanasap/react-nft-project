@@ -145,6 +145,7 @@ const Mint = () => {
 
     return (
         <div className='mint'>
+        <div className="column-text">JOIN THE  DRIPPYDOBS</div>
         <div className="column rainbow">
             <div className="card">
                 <img className='contract-pic' src={caine}/>

@@ -8,6 +8,12 @@
     margin-right: auto;
 }
 
+.timer {
+    height: 100px;
+    color: #a1a5b0;
+    width: 100%;
+}
+
 .header > div{
     margin: 10px;
 }

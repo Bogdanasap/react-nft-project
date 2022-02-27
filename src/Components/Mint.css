@@ -44,8 +44,17 @@
     float: right;
     width: 400px;
     height: 600px;
-    margin-right: 5%;
+    margin-right: 15%;
    /* background-color: white; */
+}
+
+.column-text {
+    width: 500px;
+    float: left;
+    margin-left: 10%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    margin-top: 18%;
 }
 
 /* Display the columns below each other instead of side by side on small screens */

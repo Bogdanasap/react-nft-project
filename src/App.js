@@ -12,6 +12,7 @@ import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
 import FaqJr from "./Components/FaqJr";
+import Timer from "./Components/Timer";
 import Mint from "./Components/Mint";
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
@@ -26,6 +27,7 @@ function App() {
 
   return (
       <div className='app'>
+       <Timer/>
         <Header/>
           <Trailer/>
             <About/>

@@ -1,5 +1,7 @@
 import React from 'react'
 import './road.css'
+import './RoadMap.scss'
+import roadmap from "../assets/owner/raodmap.png"
 import bone from'../assets/bone-removebg-preview.png'
 import nft from'../assets/Aqua.png'
 import { ethers, BigNumber } from "ethers";
@@ -29,14 +31,47 @@ const Road = () => {
 */
 
 
-
+   // style={{ backgroundImage: `url(${roadmap})` }} className='road-map'
 
     return (
 
-
-
-        <div className='road-map'>
-            ROADMAP
+        <div className="background">
+            <div className="div-up-right">
+            </div>
+            <div className="div-up-left">
+            </div>
+            <div className="section">
+                <p className="text-objective-left border radial-repeating">Objective 1</p>
+                <p className="text-description-right ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tincidunt dui, ac dapibus diam. Suspendisse nec elementum leo. Proin a porttitor nibh. Vestibulum posuere ex nulla, eget egestas nunc tincidunt id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed quis purus interdum, pretium eros vitae, tincidunt orci. Pellentesque ut eros sit amet velit fermentum suscipit.</p>
+            </div>
+            <div className="div-up-right">
+            </div>
+            <div className="div-up-left">
+            </div>
+            <div className="section">
+                <p className="text-objective-right border radial-repeating">Objective 2</p>
+                <p className="text-description-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tincidunt dui, ac dapibus diam. Suspendisse nec elementum leo. Proin a porttitor nibh. Vestibulum posuere ex nulla, eget egestas nunc tincidunt id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed quis purus interdum, pretium eros vitae, tincidunt orci. Pellentesque ut eros sit amet velit fermentum suscipit.</p>
+            </div>
+            <div className="div-up-right">
+            </div>
+            <div className="div-up-left">
+            </div>
+            <div className="section">
+                <p className="text-objective-left border radial-repeating">Objective 3</p>
+                <p className="text-description-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tincidunt dui, ac dapibus diam. Suspendisse nec elementum leo. Proin a porttitor nibh. Vestibulum posuere ex nulla, eget egestas nunc tincidunt id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed quis purus interdum, pretium eros vitae, tincidunt orci. Pellentesque ut eros sit amet velit fermentum suscipit.</p>
+            </div>
+            <div className="div-up-right">
+            </div>
+            <div className="div-up-left">
+            </div>
+            <div className="section">
+                <p className="text-objective-right border radial-repeating">Objective 4</p>
+                <p className="text-description-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et tincidunt dui, ac dapibus diam. Suspendisse nec elementum leo. Proin a porttitor nibh. Vestibulum posuere ex nulla, eget egestas nunc tincidunt id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed quis purus interdum, pretium eros vitae, tincidunt orci. Pellentesque ut eros sit amet velit fermentum suscipit.</p>
+            </div>
+            <div className="div-up-right">
+            </div>
+            <div className="div-up-left">
+            </div>
         </div>
     )
 

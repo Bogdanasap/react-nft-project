@@ -8,6 +8,7 @@ import Metamask from "./Components/Metamask";
 import Team from "./Components/Team"
 import Faq from "./Components/Faq"
 import About from "./Components/About"
+import CTA from "./Components/CTA";
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
@@ -31,11 +32,12 @@ function App() {
         <Header/>
           <Trailer/>
             <About/>
-                <RoadMap/>
-                  <Mint/>
-                    <Team/>
-                        <Faq/>
-                            <Footer/>
+             <CTA/>
+              <RoadMap/>
+               <Mint/>
+                <Team/>
+                  <Faq/>
+                   <Footer/>
       </div>
   )
 }

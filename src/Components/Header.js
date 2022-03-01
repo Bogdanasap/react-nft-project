@@ -7,6 +7,13 @@ import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png
 import searchIcon from '../assets/header/search.png'
 
 
+export function getCurrentDate(separator=''){
+    let myCurrentDate = new Date()
+    let date = myCurrentDate.getDate();
+    let month = myCurrentDate.getMonth() + 1;
+    let year = myCurrentDate.getFullYear();
+}
+
 const Header = () => {
 
     function moveToMint() {

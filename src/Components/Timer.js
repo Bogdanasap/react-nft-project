@@ -10,15 +10,63 @@ import searchIcon from '../assets/header/search.png'
 const Timer  = () => {
 
     let  curTime = new Date().toLocaleString();
-    const [counter, setCounter] = React.useState(curTime);
+    let curDate = curTime.toString().split('/');
+    let curDay = curDate[0];
+    let curMonth = curDate[1];
+    let curYear = curDate[2].substring(0,4);
+    let time = curTime.split(',');
+    let time1 = time[1].split(":");
+    let hour = time1[0];
+    let minute = time1[1];
+    let second = time1[2];
+
+    /////Target time variables//////
+
+    let targetDay = 5;
+    //targetDay = targetDay -1 ;
+    let daysRem = targetDay - (curDay);
+
+    let targetHour = 20;
+    targetHour = targetHour - 1;
+    let hoursRem;
+    if(targetHour>hour)
+        hoursRem = targetHour - hour;
+    else
+        hoursRem = 24-hour;
+
+
+    let targetMinute = 0;
+    targetMinute = targetMinute-1;
+    let minuteRem;
+    if(targetMinute>minute)
+        minuteRem = targetMinute - minute;
+    else
+        minuteRem = 59-minute;
+
+    let targetSecond = 0;
+    let secondRem;
+    secondRem = targetSecond - second;
+    if(targetSecond>second)
+        secondRem = targetSecond - second;
+    else
+        secondRem = 60-second;
+
+    const [counter, setCounter] = React.useState(secondRem);
+
     React.useEffect(() => {
         const timer =
             counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+        if (timer==0) {
+            setCounter(60);
+        }
         return () => clearInterval(timer);
     }, [counter]);
 
     return (
-        <div className="timer">MINT AVAILABLE IN: {counter}</div>
+        <div className="timer">MINT AVAILABLE ON: 05/03/2022 at 20:00:00
+        <div className="timer">MINT AVAILABLE IN: {daysRem} DAYS {hoursRem} HOURS {minuteRem} MINUTES {counter} SECONDS</div>
+        </div>
+
     )
 
 }

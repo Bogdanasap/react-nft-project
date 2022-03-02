@@ -27,6 +27,7 @@ const CTA = () => {
                 <h2>Being transparent</h2>
             </div>
         </div>
+        </div>
     )
 }
 

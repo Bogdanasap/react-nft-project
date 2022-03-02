@@ -18,6 +18,7 @@ import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
+import CTA from "./Components/CTA";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
@@ -31,11 +32,12 @@ function App() {
         <Header/>
           <Trailer/>
             <About/>
-                <RoadMap/>
-                  <Mint/>
-                    <Team/>
-                        <Faq/>
-                            <Footer/>
+                <CTA/>
+                    <RoadMap/>
+                      <Mint/>
+                        <Team/>
+                            <Faq/>
+                                <Footer/>
       </div>
   )
 }

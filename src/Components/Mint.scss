@@ -311,6 +311,8 @@
   height: 612px;
   overflow: hidden;
   padding: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
 
   &::before {
     content: '';

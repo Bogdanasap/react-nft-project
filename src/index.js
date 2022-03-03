@@ -33,13 +33,19 @@ reportWebVitals();
 
  */
 
+
+/*
+<Route path="/faq" element={<Faq />} />
+<Route path="/team" element={<Team/>}/>
+
+ */
+
+
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/faq" element={<Faq />} />
             <Route path="/mint" element={<Mint />} />
-            <Route path="/team" element={<Team/>}/>
         </Routes>
     </Router>,
 

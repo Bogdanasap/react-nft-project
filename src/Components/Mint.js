@@ -9,6 +9,8 @@ import mint from "../../src/mintAbi.json"
 import Metamask from "./Metamask";
 import caine from "../assets/owner/Caine_Web3.jpeg";
 import Header from "./Header";
+import Faq from "./Faq";
+import Footer from "./Footer";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const onboarding = new MetaMaskOnboarding();
 
@@ -147,8 +149,10 @@ const Mint = () => {
     return (
         <div className='mint'>
             <Header/>
+        <div className="space-up"></div>
         <div className="column-text">JOIN THE  DRIPPYDOBS</div>
-        <div className="column rainbow">
+            <div className="space-up"></div>
+            <div className="column rainbow " style={{ marginLeft: 'auto', marginRight: 'auto'}}>
             <div className="card">
                 <img className='contract-pic' src={caine}/>
                 <div className="container">
@@ -164,10 +168,17 @@ const Mint = () => {
                     )}
                 </div>
             </div>
-        </div>
+            </div>
             <div className="space">
 
             </div>
+            <div className="space">
+
+            </div>
+            <div className="space">
+
+            </div>
+            <Footer/>
         </div>
     )
 }

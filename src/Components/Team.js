@@ -1,11 +1,11 @@
 import React from 'react'
 import "./team.css"
-import CalinDobb from "../Nfts/Lime.png";
+import EugenDobb from "../Nfts/Lime.png";
 import BobocDobb from "../Nfts/Orange.png";
 import RaduDobb from "../Nfts/Pink.png";
 import BogdanDobb from "../assets/Aqua.png"
 import StefanDobb from '../Nfts/Cyan.png';
-import AnaDobb from "../Nfts/Beige.png";
+import CristianaDobb from "../Nfts/Beige.png";
 import VladDobb from "../Nfts/Purple.png";
 import "./Mint.scss";
 
@@ -37,15 +37,15 @@ const Team = () => {
                    <h2>MARKETING TEAM</h2>
                </div>
                    <div className="images2">
-                       <div className="calin rainbow3">
-                           <img src={CalinDobb} className='calin'/>
+                       <div className="eugen rainbow3">
+                           <img src={EugenDobb} className='eugen'/>
                        </div>
                        <div className="radu rainbow4">
                             <img src={RaduDobb} className={'radu'}/>
                        </div>
                    </div>
                    <div className='marketing1h3'>
-                       <h3>Calin</h3>
+                       <h3>Eugen</h3>
                        <h3>Radu</h3>
                    </div>
                    <div className="images3">
@@ -66,12 +66,12 @@ const Team = () => {
                    <h2>DESIGN TEAM</h2>
                </div>
                <div className="images4">
-                   <div className="ana rainbow7">
-                        <img src={AnaDobb} className='ana'/>
+                   <div className="cristiana rainbow7">
+                        <img src={CristianaDobb} className='cristiana'/>
                    </div>
                </div>
                <div className="designh3">
-                   <h3>Ana</h3>
+                   <h3>Cristiana</h3>
                </div>
            </div>
        </div>

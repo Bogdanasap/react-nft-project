@@ -8,7 +8,7 @@ import dubbsLogo from "../assets/header/img.png";
 const Footer = () => {
 
     function moveToMint() {
-        window.scrollTo(0,1050);
+        window.location.href = './App2.js'
     }
 
     function moveToTop(){

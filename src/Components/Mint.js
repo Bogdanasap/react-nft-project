@@ -8,6 +8,7 @@ import { useEffect, useState} from "react";
 import mint from "../../src/mintAbi.json"
 import Metamask from "./Metamask";
 import caine from "../assets/owner/Caine_Web3.jpeg";
+import Header from "./Header";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const onboarding = new MetaMaskOnboarding();
 
@@ -145,6 +146,7 @@ const Mint = () => {
 
     return (
         <div className='mint'>
+            <Header/>
         <div className="column-text">JOIN THE  DRIPPYDOBS</div>
         <div className="column rainbow">
             <div className="card">

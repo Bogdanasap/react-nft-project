@@ -1,10 +1,13 @@
-import React from 'react'
 import './about.css'
 import nft1 from '../Nfts/img.png';
 import nft2 from '../Nfts/img_1.png';
 import './Mint.scss'
+import React, { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        document.title = 'About';
+    });
     return (
         <div className='stories'>
 

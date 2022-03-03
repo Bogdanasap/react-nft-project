@@ -1,7 +1,9 @@
 import React from 'react'
 import "./faq.css"
 import {useState} from 'react'
+import Header from "./Header";
 import * as events from "events";
+import Footer from "./Footer";
 
 
 const Faq = () => {
@@ -17,6 +19,7 @@ const Faq = () => {
 
     return (
         <div className='accordion'>
+            <Header/>
             <div className='faq'>
                 <h1>FAQ</h1>
             </div>
@@ -31,6 +34,7 @@ const Faq = () => {
                     </div>
                 </div>
             ))}
+        <Footer/>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
 import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
 import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
+import { NavLink } from "react-router-dom";
 import searchIcon from '../assets/header/search.png'
 
 
@@ -58,14 +59,23 @@ const Header = () => {
 
         <div className='header'>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
+            <NavLink style={{ textDecoration: 'none' }} className='logoContainer' to="/">
             <div className='logoContainer'>
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
+             </NavLink>
             <div className='headerItems'>
+                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/about">
                 <p onClick={moveToAbout}>ABOUT</p>
+                </NavLink>
+                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/roadmap">
                 <p onClick={moveToRoadmap}>ROADMAP</p>
+                </NavLink>
+                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/faq">
                 <p onClick={moveToFAQ}>FAQ</p>
+                </NavLink>
             </div>
+
             <div className='headerActions'>
                 <div className="instagramContainer" onClick={moveToInsta}>
                     <img src={instagramIcon}/>
@@ -77,10 +87,12 @@ const Header = () => {
                     <img src={discordIcon}/>
                 </div>
             </div>
+            <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
             <button onClick={moveToMint} className='mintButton'>
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 Mint
             </button>
+            </NavLink>
         </div>
     )
 

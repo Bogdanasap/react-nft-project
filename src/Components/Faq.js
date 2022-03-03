@@ -19,7 +19,6 @@ const Faq = () => {
 
     return (
         <div className='accordion'>
-            <Header/>
             <div className='faq'>
                 <h1>FAQ</h1>
             </div>
@@ -34,7 +33,6 @@ const Faq = () => {
                     </div>
                 </div>
             ))}
-        <Footer/>
         </div>
     )
 }

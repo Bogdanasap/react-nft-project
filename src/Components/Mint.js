@@ -175,9 +175,6 @@ const Mint = () => {
             <div className="space">
 
             </div>
-            <div className="space">
-
-            </div>
             <Footer/>
         </div>
     )

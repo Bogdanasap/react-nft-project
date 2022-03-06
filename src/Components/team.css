@@ -145,3 +145,15 @@
 
     margin-bottom: 50px;
 }
+
+.characters-background{
+    background-color: #f95984;
+    margin-top: 100px;
+    transform: skewY(-11deg);
+}
+
+.characters{
+    max-width: 80em;
+    margin: 0 auto;
+    
+}

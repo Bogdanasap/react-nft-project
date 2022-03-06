@@ -87,12 +87,7 @@ const Header = () => {
                     <img src={discordIcon}/>
                 </div>
             </div>
-            <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
-            <button onClick={moveToMint} className='mintButton'>
-                <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
-                Mint
-            </button>
-            </NavLink>
+
         </div>
     )
 

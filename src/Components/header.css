@@ -3,7 +3,7 @@
 }
 
 .header {
-    background: #1e1e1e;
+    background: #6e59f9;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -13,8 +13,9 @@
 }
 
 .timer {
+    margin-left: -20px;
     height: 100px;
-    color: #a1a5b0;
+    color: Black;
     width: 100%;
 }
 
@@ -34,7 +35,7 @@
 
 .headerItems{
     display: flex;
-    color: #a1a5b0;
+    color: Black;
     font-size: 30px;
     cursor: pointer;
     font-family: 'Roboto';
@@ -57,7 +58,6 @@
 
 .discordContainer{
     display: flex;
-    background-color: rgba(255, 255, 255, .8);
     width: 40px;
     margin: 10px;
     border-radius: 10px;
@@ -74,7 +74,6 @@
 .instagramContainer{
     display: flex;
     margin: 10px;
-    background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
     padding: 10px;
     width: 40px;
@@ -90,7 +89,6 @@
 .twitterContainer{
     display: flex;
     margin: 10px;
-    background-color: rgba(255, 255, 255, .8);
     padding: 10px;
     border-radius: 10px;
     width: 40px;
@@ -103,17 +101,5 @@
     height: 20px;
 }
 
-
-
-.mintButton {
-    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
-    border-radius: 50px;
-    padding: 15px 40px;
-    margin-right: 20px;
-    -webkit-animation-direction: alternate;
-    color: black;
-    cursor: pointer;
-    font-family: Archive, serif;
-}
 
 

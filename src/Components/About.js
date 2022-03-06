@@ -3,12 +3,14 @@ import nft1 from '../Nfts/img.png';
 import nft2 from '../Nfts/img_1.png';
 import './Mint.scss'
 import React, { useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 
 const About = () => {
     useEffect(() => {
         document.title = 'About';
     });
     return (
+        <div className='diagonal'>
         <div className='stories'>
 
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
@@ -37,6 +39,13 @@ const About = () => {
                 </div>
             </div>
         </div>
+            <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
+                <button className='mintButton1'>
+                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+                    Mint
+                </button>
+            </NavLink>
+</div>
     )
 }
 

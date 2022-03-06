@@ -28,12 +28,12 @@ function App() {
     return (
         <div className='app'>
             <Timer/>
-            <Header/>
-            <Trailer/>
-            <About/>
-            <Team/>
-            <Faq/>
-            <Footer/>
+                <Header/>
+                    <Trailer/>
+                        <About/>
+                            <Team/>
+                                <Faq/>
+                                    <Footer/>
         </div>
     )
 }export default App

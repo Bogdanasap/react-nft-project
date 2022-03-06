@@ -11,8 +11,8 @@ import "./Mint.scss";
 
 const Team = () => {
     return (
+        <div className='characters-back'>
        <div className='characters'>
-           <div className="space"></div>
            <div className="developerContainer">
                <div className="devh2">
                    <h2>DEV TEAM</h2>
@@ -75,6 +75,8 @@ const Team = () => {
                </div>
            </div>
        </div>
+        </div>
+
     )
 }
 

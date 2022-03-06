@@ -4,6 +4,7 @@ import {useState} from 'react'
 import Header from "./Header";
 import * as events from "events";
 import Footer from "./Footer";
+import {Accordion} from "react-bootstrap";
 
 
 const Faq = () => {
@@ -16,6 +17,8 @@ const Faq = () => {
         }
         setSelected(i);
     }
+
+
 
     return (
         <div className='accordion'>

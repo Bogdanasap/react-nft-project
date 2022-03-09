@@ -1,159 +1,120 @@
-.space{
-    height: 400px;
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 120%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card1{
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+    height: 460px;
+    background-color: black;
+    margin: 40px;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -15px 0 rgba(255, 255, 255, 0.25),
+    0 45px 0 rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card1::before{
+    content: '';
+    position: absolute;
+    top: -130px;
+    left: -125px;
     width: 100%;
+    height: 120%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+    transform: rotate(35deg);
+    pointer-events: none;
+    filter: blur(5px);
 }
 
-.developerContainer{
-    border-bottom:5px #f95984;
-    border-style: solid;
-
+.card1:hover{
+    background-color: #f95984;
+    width: 340px;
+    height: 470px;
 }
 
-.marketingContainer{
-    border-bottom:5px #f95984;
-    border-style: solid;
-}
 
-.designContainer{
-    border-bottom:5px #f95984;
-    border-style: solid;
-}
 
-.marketingh2{
-    color: rgba(255, 255, 255, 0.8);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.marketing1h3{
-    margin-bottom: 100px;
-    margin-top: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.8);
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-.marketing2h3{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.8);
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-.devh3{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.8);
-    margin-left: 345px;
-    margin-right: 350px;
-}
-
-.devh2{
-    margin-top: 500px;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.designh2{
-    color: rgba(255, 255, 255, 0.8);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.designh3{
-    margin-bottom: 100px;
-    margin-top: 50px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-.images1 {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-bottom: 50px;
+.coding{
+    background-color: #6e59f9;
+    height: 85px;
+    width: 85px;
 }
 
 .eugen{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .radu{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .vlad{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .stefan{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .boboc{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .bogdan {
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
 .cristiana{
+    cursor: pointer;
+    bottom: 270px;
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 
-.images2{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-bottom: 50px;
-}
-
-.images3{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-bottom: 50px;
-}
-
-.images4{
-    margin-left: 42%;
-
-    margin-bottom: 50px;
-}
-
-.characters-background{
-    background-color: #f95984;
-    margin-top: 100px;
-    transform: skewY(-11deg);
-}
-
-.characters{
-    max-width: 80em;
-    margin: 0 auto;
-    
+.content{
+    color: rgba(255, 255, 255, 0.8);
+    bottom: -300px;
 }

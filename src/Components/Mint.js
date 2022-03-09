@@ -11,6 +11,7 @@ import caine from "../assets/owner/Caine_Web3.jpeg";
 import Header from "./Header";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import LinksFooter from "./LinksFooter";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const onboarding = new MetaMaskOnboarding();
 
@@ -176,6 +177,7 @@ const Mint = () => {
 
             </div>
             <Footer/>
+            <LinksFooter/>
         </div>
     )
 }

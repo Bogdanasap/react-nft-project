@@ -11,71 +11,87 @@ import "./Mint.scss";
 
 const Team = () => {
     return (
-        <div className='characters-back'>
-       <div className='characters'>
-           <div className="developerContainer">
-               <div className="devh2">
-                   <h2>DEV TEAM</h2>
-               </div>
-               <div className="images1">
-                   <div className="bogdan rainbow1">
-                        <img src={BogdanDobb} className={'bogdan'}/>
-                   </div>
-                   <div className="boboc rainbow2">
-                       <img src={BobocDobb} className={'boboc'}/>
-                   </div>
-               </div>
-               <div className="developers">
-                   <div className="devh3">
-                       <h3>Bogdan</h3>
-                       <h3>Boboc</h3>
-                   </div>
-               </div>
-           </div>
-           <div className="marketingContainer">
-               <div className="marketingh2">
-                   <h2>MARKETING TEAM</h2>
-               </div>
-                   <div className="images2">
-                       <div className="eugen rainbow3">
-                           <img src={EugenDobb} className='eugen'/>
-                       </div>
-                       <div className="radu rainbow4">
-                            <img src={RaduDobb} className={'radu'}/>
-                       </div>
-                   </div>
-                   <div className='marketing1h3'>
-                       <h3>Eugen</h3>
-                       <h3>Radu</h3>
-                   </div>
-                   <div className="images3">
-                       <div className="stefan rainbow5">
+        <div className='container'>
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Bogdan</h1>
+                        <div className="bogdan rainbow1">
+                            <img src={BogdanDobb} className={'bogdan'}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Boboc</h1>
+                        <div className="boboc rainbow2">
+                            <img src={BobocDobb} className={'boboc'}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Eugen</h1>
+                        <div className="eugen rainbow3">
+                            <img src={EugenDobb} className='eugen'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Stefan</h1>
+                        <div className="stefan rainbow5">
                             <img src={StefanDobb} className='stefan'/>
-                       </div>
-                       <div className="vlad rainbow6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Cristiana</h1>
+                        <div className="cristiana rainbow7">
+                            <img src={CristianaDobb} className='cristiana'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Vlad</h1>
+                        <div className="vlad rainbow6">
                             <img src={VladDobb} className={'vlad'}/>
-                       </div>
-                   </div>
-                   <div className="marketing2h3">
-                       <h3>Stefan</h3>
-                       <h3>Vlad</h3>
-                   </div>
-           </div>
-           <div className="designContainer">
-               <div className="designh2">
-                   <h2>DESIGN TEAM</h2>
-               </div>
-               <div className="images4">
-                   <div className="cristiana rainbow7">
-                        <img src={CristianaDobb} className='cristiana'/>
-                   </div>
-               </div>
-               <div className="designh3">
-                   <h3>Cristiana</h3>
-               </div>
-           </div>
-       </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card1">
+                <div className="icon">
+                    <div className="content">
+                        <h1 className='names'>Radu</h1>
+                        <div className="radu rainbow4">
+                            <img src={RaduDobb} className={'radu'}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+
 
     )
 }

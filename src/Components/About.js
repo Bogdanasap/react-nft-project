@@ -40,10 +40,10 @@ const About = () => {
             </div>
         </div>
             <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
-                <button className='mintButton1'>
+                <span className='mintButton1'>
                     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                     Mint
-                </button>
+                </span>
             </NavLink>
 </div>
     )

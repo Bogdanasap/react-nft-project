@@ -20,7 +20,9 @@ import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
+import background from './assets/background.jpg'
 import App2 from "./App2";
+import CookieConsent from "react-cookie-consent";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 function App() {
@@ -28,12 +30,16 @@ function App() {
     return (
         <div className='app'>
             <Timer/>
-                <Header/>
-                    <Trailer/>
-                        <About/>
-                            <Team/>
-                                <Faq/>
-                                    <Footer/>
+            <Header/>
+            <Trailer/>
+            <About/>
+            <Team/>
+            <Faq/>
+            <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
+                style={{background: "#1e1e1e"}}>
+                Our website uses cookies to improve your experience 🍪
+            </CookieConsent>
+            <Footer/>
         </div>
     )
 }export default App

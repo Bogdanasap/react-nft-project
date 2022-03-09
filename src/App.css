@@ -1,6 +1,8 @@
 .app {
-  background-color: #6e59f9;
+  background-image: image("./assets/background.jpg");
+  background: #6e59f9;
   text-align: center;
+  border-style: solid;
 }
 
 .column {
@@ -52,3 +54,4 @@
 .button:hover {
   background-color: #555;
 }
+

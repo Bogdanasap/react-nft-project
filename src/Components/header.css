@@ -41,6 +41,18 @@
     font-family: 'Roboto';
 }
 
+.abouthead:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.teamhead:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.faqhead:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .headerItems > p{
     margin: 20px;
 }

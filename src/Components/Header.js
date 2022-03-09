@@ -17,12 +17,9 @@ export function getCurrentDate(separator=''){
 
 const Header = () => {
 
-    function moveToMint() {
-        window.scrollTo(0,800);
-    }
 
     function moveToFAQ() {
-        window.scrollTo(0,1600);
+        window.scrollTo(0,4000);
     }
 
     function moveToRoadmap() {
@@ -59,21 +56,13 @@ const Header = () => {
 
         <div className='header'>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
-            <NavLink style={{ textDecoration: 'none' }} className='logoContainer' to="/">
             <div className='logoContainer'>
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
-             </NavLink>
             <div className='headerItems'>
-                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/about">
-                <p onClick={moveToAbout}>ABOUT</p>
-                </NavLink>
-                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/roadmap">
-                <p onClick={moveToRoadmap}>ROADMAP</p>
-                </NavLink>
-                <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/faq">
-                <p onClick={moveToFAQ}>FAQ</p>
-                </NavLink>
+                <p className='abouthead' onClick={moveToAbout}>ABOUT</p>
+                <p className='teamhead' onClick={moveToRoadmap}>TEAM</p>
+                <p className='faqhead' onClick={moveToFAQ}>FAQ</p>
             </div>
 
             <div className='headerActions'>

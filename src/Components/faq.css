@@ -5,11 +5,18 @@
 
 
 .item {
+    margin-top: 80px;
     background-color: white;
     border-radius: 30px;
-    margin: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
     padding: 10px;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
 }
+
+
 
 .faq{
     color: black;
@@ -35,6 +42,7 @@ button.plus{
     text-align: center;
     padding: 10px;
     cursor: pointer;
+
 }
 
 .minus{

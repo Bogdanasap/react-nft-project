@@ -43,11 +43,8 @@ button.plus{
     width: 45px;
     height: 45px;
     color: black;
-    min-width: 20px;
-    min-height: 20px;
     font-size: 25px;
-    border: #f95984;
-    padding: 10px;
+    border: transparent;
     cursor: pointer;
 }
 
@@ -60,9 +57,10 @@ button.plus{
 .content {
     padding: 0;
     max-height: 0;
-    overflow: hidden;
+
     position: relative;
     background-color: #212839;
+
 }
 
 .content.show{
@@ -79,5 +77,6 @@ button.plus{
     color: black;
     font-size: 30px;
     text-align: left;
-    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
 }

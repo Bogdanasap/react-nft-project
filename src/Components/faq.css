@@ -1,10 +1,14 @@
 .accordion{
+    height: fit-content;
+    left: 20%;
+    right: 20%;
     margin-bottom: 100px;
     margin-top: 100px;
 }
 
 
 .item {
+
     margin-top: 80px;
     background-color: white;
     border-radius: 30px;

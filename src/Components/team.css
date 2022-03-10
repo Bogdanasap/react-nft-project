@@ -1,12 +1,12 @@
-*{
 
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .container{
+    background: #f95984;
+    height: fit-content;
+    width: fit-content;
     display: flex;
-    margin-bottom: 120%;
+    margin-top: 30%;
+    margin-bottom: 30%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -18,14 +18,11 @@
     overflow: hidden;
     width: 330px;
     height: 460px;
-    background-color: black;
+    background-color: transparent;
     margin: 40px;
     border-radius: 20px;
     border-bottom-left-radius: 160px;
     border-bottom-right-radius: 160px;
-    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
-    inset 0 -15px 0 rgba(255, 255, 255, 0.25),
-    0 45px 0 rgba(0,0,0,0.15);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -45,17 +42,10 @@
 }
 
 .card1:hover{
-    background-color: #f95984;
-    width: 340px;
-    height: 470px;
-}
-
-
-
-.coding{
-    background-color: #6e59f9;
-    height: 85px;
-    width: 85px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -15px 0 rgba(255, 255, 255, 0.25),
+    0 45px 0 rgba(0,0,0,0.15);
 }
 
 .eugen{
@@ -115,6 +105,8 @@
 }
 
 .content{
-    color: rgba(255, 255, 255, 0.8);
+    font-family: "Annie Use Your Telescope";
+    font-size: large;
+    color: #1e1e1e;
     bottom: -300px;
 }

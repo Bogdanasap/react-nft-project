@@ -30,16 +30,17 @@ function App() {
     return (
         <div className='app'>
             <Timer/>
-            <Header/>
-            <Trailer/>
-            <About/>
-            <Team/>
-            <Faq/>
-            <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
-                style={{background: "#1e1e1e"}}>
-                Our website uses cookies to improve your experience 🍪
-            </CookieConsent>
-            <Footer/>
+                <Header/>
+                    <Trailer/>
+                        <About/>
+                            <Team/>
+                                <Faq/>
+                                    <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
+                                        style={{background: "#1e1e1e"}}>
+                                        Our website uses cookies to improve your experience 🍪
+                                    </CookieConsent>
+                                        <Footer />
+
         </div>
     )
 }export default App

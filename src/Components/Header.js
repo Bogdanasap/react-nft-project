@@ -31,7 +31,7 @@ const Header = () => {
     }
 
     function moveToTwitter(){
-        window.location.href = "https://twitter.com/nftshub";
+        window.location.href = "https://twitter.com/nftshub_";
     }
 
     function moveToDiscord(){
@@ -39,7 +39,7 @@ const Header = () => {
     }
 
     function moveToInsta(){
-        window.location.href = "https://www.instagram.com/nftshub/";
+        window.location.href = "https://www.instagram.com/nftshub_/";
     }
 
     const [counter, setCounter] = React.useState(60);

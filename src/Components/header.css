@@ -1,6 +1,4 @@
-.NavLink{
-    text-decoration: none;
-}
+
 
 .header {
     background: #6e59f9;
@@ -64,11 +62,15 @@
     cursor: pointer;
 }
 
-.footerActions > div{
+.headerActions > div{
     margin: 10px;
 }
 
 .discordContainer{
+
+}
+
+.discordContainer:hover{
     display: flex;
     width: 40px;
     margin: 10px;

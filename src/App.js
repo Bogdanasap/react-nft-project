@@ -30,16 +30,21 @@ function App() {
     return (
         <div className='app'>
             <Timer/>
-            <Header/>
-            <Trailer/>
-            <About/>
-            <Team/>
-            <Faq/>
-            <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
-                style={{background: "#1e1e1e"}}>
-                Our website uses cookies to improve your experience 🍪
-            </CookieConsent>
-            <Footer/>
+                <Header/>
+                    <Trailer/>
+                        <About/>
+                            <Team/>
+                                <Faq/>
+                                    <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
+                                        style={{background: "#1e1e1e"}}>
+                                        Our website uses cookies to improve your experience 🍪
+                                    </CookieConsent>
+                                        <Footer />
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
+
+
         </div>
     )
 }export default App

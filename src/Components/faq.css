@@ -1,4 +1,7 @@
 .accordion{
+    height: fit-content;
+    left: 20%;
+    right: 20%;
     margin-bottom: 100px;
     margin-top: 100px;
 }
@@ -57,6 +60,7 @@ button.plus{
 }
 
 .title h2{
+    font-family: Righteous;
     color: black;
     font-size: 35px;
     padding: 10px;
@@ -65,7 +69,6 @@ button.plus{
 .content {
     padding: 0;
     max-height: 0;
-
     position: relative;
     background-color: #212839;
 
@@ -79,7 +82,7 @@ button.plus{
 }
 
 .contents{
-    font-family: "Annie Use Your Telescope";
+    font-family: Fredoka;
     margin-left: 10px;
     margin-bottom: 10px;
     color: black;

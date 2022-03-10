@@ -16,20 +16,23 @@ const About = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 <div className="story1">
                     <div className='box1'>
-                        <h2>WHAT IS DRIPPYDOBS?</h2>
-                    <p>
-                        DrippyDobs is a collection of 10,000 Dobberman NFTs.
-                        When the DobberLads team were having a drink in the laboratory, they all started imagining a world populated by the most fashionable dogs, Dobermans.
-                        They kept trying to find a way to tell people about their vision but couldn't find a way to do so. At some point, they finally got it.
-                        What if they created a virtual world full of beautiful dobermans and put it on a blockchain so that every dog enthusiast could get their very own drippy doberman.
-                    </p>
+                        <h2>WHAT IS DOBBERLADS?</h2>
+                    <p className='non-hoverAbout'>
+                        🦴 DobberLads is the best entry-level collection of 10,000 NFTs. Having its spotlight on Dobermans, the art comes up as an exquisite acquisition for any Metaverse gallery.
+                        </p>
+                        <p className='hoverAbout'>
+                            🦴 The lads’ development team values, above all, quality, taste and creativity, attributes found both in the character and the management of the project. They analysed in depth
+                            the extent to which a project can bring real life benefits to it’s community members, thus coming forward with two major goals: bringing people together,
+                            united by some of their common interests and helping said people become more productive on a daily basis. Both of these will be attained by the perks of web3, metaverse apps and
+                            live events the team has planned for you. Therefore, it is their pleasure to announce that DobberLads is more than just art, it is a continuously growing community of which anybody can be a part of.
+                        </p>
                 </div>
                         <img src={nft1} className='image1'/>
             </div>
                  <div className="story2">
                         <img src={nft2} className='image2'/>
                      <div className='box2'>
-                       <h2>WHAT IS DOBBERLADS?</h2>
+                       <h2>WHO ARE WE?</h2>
                      <p>
                         DobberLads is a team of 5 guys that share a passion for dogs.
                         Our mission is to bring Dobbermans to the ERC-271 blockchain and give every one of you a chance to own your very own custom Doberman NFT.
@@ -41,8 +44,7 @@ const About = () => {
         </div>
             <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
                 <span className='mintButton1'>
-                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
-                    Mint
+                    MINT
                 </span>
             </NavLink>
 </div>

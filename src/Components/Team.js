@@ -16,7 +16,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Bogdan</h1>
-                        <div className="bogdan rainbow1">
+                        <div className="bogdan">
                             <img src={BogdanDobb} className={'bogdan'}/>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Boboc</h1>
-                        <div className="boboc rainbow2">
+                        <div className="boboc">
                             <img src={BobocDobb} className={'boboc'}/>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Eugen</h1>
-                        <div className="eugen rainbow3">
+                        <div className="eugen">
                             <img src={EugenDobb} className='eugen'/>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Stefan</h1>
-                        <div className="stefan rainbow5">
+                        <div className="stefan">
                             <img src={StefanDobb} className='stefan'/>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Cristiana</h1>
-                        <div className="cristiana rainbow7">
+                        <div className="cristiana">
                             <img src={CristianaDobb} className='cristiana'/>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Vlad</h1>
-                        <div className="vlad rainbow6">
+                        <div className="vlad">
                             <img src={VladDobb} className={'vlad'}/>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Team = () => {
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Radu</h1>
-                        <div className="radu rainbow4">
+                        <div className="radu">
                             <img src={RaduDobb} className={'radu'}/>
                         </div>
                     </div>

@@ -18,7 +18,7 @@ const Footer = () => {
     }
 
     function moveToTwitter(){
-        window.location.href = "https://twitter.com/nftshub";
+        window.location.href = "https://twitter.com/nftshub_";
     }
 
     function moveToDiscord(){
@@ -26,32 +26,30 @@ const Footer = () => {
     }
 
     function moveToInsta(){
-        window.location.href = "https://www.instagram.com/nftshub/";
+        window.location.href = "https://www.instagram.com/nftshub_/";
     }
 
     return (
         <div className='footer'>
-            <Row>
-                <Col><div className='footerLogo' onClick={moveToTop}>
+
+
+                <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
-                </div></Col>
-                <Col><div className='discordContainer ' onClick={moveToDiscord}>
-                    <img src={discordIcon}/>
-                    <a href="https://discord.com/"></a>
                 </div>
+                    <div className="footerActions">
+                        <div className='discordContainer ' onClick={moveToDiscord}>
+                            <img src={discordIcon}/>
+                            <a href="https://discord.com/"></a>
+                        </div>
 
-                    <div className='instagramContainer' onClick={moveToInsta}>
-                        <img src={instagramIcon}/>
+                        <div className='instagramContainer' onClick={moveToInsta}>
+                            <img src={instagramIcon}/>
+                        </div>
+
+                        <div className='twitterContainer' onClick={moveToTwitter}>
+                            <img src={twitterIcon}/>
+                        </div>
                     </div>
-
-                    <div className='twitterContainer' onClick={moveToTwitter}>
-                        <img src={twitterIcon}/>
-                    </div></Col>
-                <Col><button onClick={moveToMint} className='mintButton'>
-                    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
-                    Mint
-                </button></Col>
-            </Row>
         </div>
 
     )

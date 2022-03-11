@@ -35,6 +35,7 @@ function App() {
             <About/>
             <Team/>
             <Faq/>
+            <FaqJr/>
             <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
                 style={{background: "#1e1e1e"}}>
                 Our website uses cookies to improve your experience 🍪

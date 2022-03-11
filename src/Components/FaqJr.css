@@ -1,34 +1,78 @@
-
-
-.label {
-    margin-bottom: 0.5rem;
+.accordion{
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
-.modes {
-    margin-bottom: 1rem;
+Accordion.Item:active{
+    background-color: black;
 }
 
-.button-container {
-    margin-bottom: 0.5rem;
+.item {
+    background-color: white;
+    border-radius: 30px;
+    margin: 15px 150px 80px;
+    padding: 10px;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
 }
 
-.fade-enter .btn {
-    opacity: 0;
-    transform: translateX(-100%);
+.transparent{
+    background-color: rgba(0,0,0,0);
 }
-.fade-enter-active .btn {
-    opacity: 1;
-    transform: translateX(0%);
+
+.faq{
+    font-size: 45px;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
 }
-.fade-exit .btn {
-    opacity: 1;
-    transform: translateX(0%);
+
+.accordion-header{
+    background-color: #cd1010;
 }
-.fade-exit-active .btn {
-    opacity: 0;
-    transform: translateX(100%);
+
+.Accordion.header{
+    font-size: 45px;
 }
-.fade-enter-active .btn,
-.fade-exit-active .btn {
-    transition: opacity 500ms, transform 500ms;
+
+.title {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 30px;
+}
+
+
+.bs{
+    color: #cd1010;
+}
+
+.panel-default > .panel-heading {
+    background-color:#000;
+}
+
+.content {
+    padding: 0;
+    max-height: 0;
+    position: relative;
+    background-color: #212839;
+
+}
+
+.content.show{
+    height: 100px;
+    max-height: 9999px;
+    position: relative;
+    background-color: #212839;
+}
+
+.contents{
+    font-family: "Annie Use Your Telescope";
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
 }

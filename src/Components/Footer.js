@@ -31,7 +31,6 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            <Container>
             <Row>
                 <Col><div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
@@ -53,7 +52,6 @@ const Footer = () => {
                     Mint
                 </button></Col>
             </Row>
-            </Container>
         </div>
 
     )

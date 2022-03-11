@@ -1,51 +1,32 @@
 import React from "react";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
-import { Button, Form } from "react-bootstrap";
+import {Accordion, Button, Form} from "react-bootstrap";
 import "./FaqJr.css";
 
-const modes = ["out-in", "in-out"];
+
 
 export default function App() {
-    const [mode, setMode] = React.useState("out-in");
-    const [state, setState] = React.useState(true);
+
     return (
-        <>
-            <div className="label">Mode:</div>
-            <div className="modes">
-                {modes.map(m => (
-                    <Form.Check
-                        key={m}
-                        custom
-                        inline
-                        label={m}
-                        id={`mode=msContentScript${m}`}
-                        type="radio"
-                        name="mode"
-                        checked={mode === m}
-                        value={m}
-                        onChange={event => {
-                            setMode(event.target.value);
-                        }}
-                    />
-                ))}
-            </div>
-            <div className="main">
-                <SwitchTransition mode={mode}>
-                    <CSSTransition
-                        key={state}
-                        addEndListener={(node, done) => {
-                            node.addEventListener("transitionend", done, false);
-                        }}
-                        classNames="fade"
-                    >
-                        <div className="button-container">
-                            <Button onClick={() => setState(state => !state)}>
-                                {state ? "Hello, world!" : "Goodbye, world!"}
-                            </Button>
-                        </div>
-                    </CSSTransition>
-                </SwitchTransition>
-            </div>
-        </>
+        <div>
+            <Accordion className='accordion item' flush >
+                <Accordion.Item eventKey="0" className='faq' bsPrefix="bs">
+                    <Accordion.Header >
+                        <p >Accordion Item #1</p>
+                        </Accordion.Header>
+                    <Accordion.Body flush className='contents transparent'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+            <Accordion className='accordion item' flush >
+                <Accordion.Item eventKey="1" className='faq'>
+                    <Accordion.Header className='title'>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body className='contents transparent'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+        </div>
     );
 }

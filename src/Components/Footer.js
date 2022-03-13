@@ -31,11 +31,14 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-
-
                 <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
                 </div>
+            <div className='footerLogo text-footer'>
+                DobberLads
+            </div>
+            <div></div>
+            <div className="line"></div>
                     <div className="footerActions">
                         <div className='discordContainer ' onClick={moveToDiscord}>
                             <img src={discordIcon}/>

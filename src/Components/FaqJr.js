@@ -5,7 +5,7 @@ import "./FaqJr.css";
 
 
 
-export default function App() {
+function FaqJr() {
 
     return (
         <div>
@@ -29,4 +29,4 @@ export default function App() {
             </Accordion>
         </div>
     );
-}
+} export default FaqJr;

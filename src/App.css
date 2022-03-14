@@ -1,5 +1,5 @@
 .app {
-  background: #6e59f9;
+  background: linear-gradient(to bottom, #001883, #1e1e1e, #001883);
   text-align: center;
   border-style: solid;
 }

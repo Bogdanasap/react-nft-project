@@ -72,13 +72,13 @@
 
 .mintButton1 {
 
-    border: 4px solid #ae5cff;
+    border: 4px solid royalblue;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
     padding: 15px 40px;
     margin-right: 20px;
     -webkit-animation-direction: alternate;
-    color: #ae5cff;
+    color: royalblue;
     cursor: pointer;
     font-family: 'Fredoka';
     max-width: 80em;
@@ -87,7 +87,7 @@
 }
 
 .mintButton1:hover{
-    background-color: #ae5cff;
+    background-color: royalblue;
     color: rgba(255, 255, 255, 0.8);
     border: 4px solid rgba(255, 255, 255, 0.8);
 }

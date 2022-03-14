@@ -19,15 +19,15 @@ const Header = () => {
 
 
     function moveToFAQ() {
-        window.scrollTo(0,4000);
+        window.scrollTo(0,6000);
     }
 
-    function moveToRoadmap() {
-        window.scrollTo(0,900);
+    function moveToTeam() {
+        window.scrollTo(0,1300);
     }
 
     function moveToAbout() {
-        window.scrollTo(0,800);
+        window.scrollTo(0,300);
     }
 
     function moveToTwitter(){
@@ -61,18 +61,19 @@ const Header = () => {
             </div>
             <div className='headerItems'>
                 <p className='abouthead' onClick={moveToAbout}>ABOUT</p>
-                <p className='teamhead' onClick={moveToRoadmap}>TEAM</p>
+                <p className='teamhead' onClick={moveToTeam}>TEAM</p>
                 <p className='faqhead' onClick={moveToFAQ}>FAQ</p>
+                <p className='road-maphead'>ROADMAP</p>
             </div>
 
             <div className='headerActions'>
-                <div className="instagramContainer" onClick={moveToInsta}>
+                <div className="instagramContainerH" onClick={moveToInsta}>
                     <img src={instagramIcon}/>
                 </div>
-                <div className="twitterContainer" onClick={moveToTwitter}>
+                <div className="twitterContainerH" onClick={moveToTwitter}>
                     <img src={twitterIcon}/>
                 </div>
-                <div className="discordContainer" onClick={moveToDiscord}>
+                <div className="discordContainerH" onClick={moveToDiscord}>
                     <img src={discordIcon}/>
                 </div>
             </div>

@@ -9,7 +9,6 @@ import Team from "./Components/Team"
 import Mint from './Components/Mint'
 import Faq from "./Components/Faq"
 import About from "./Components/About"
-import CTA from "./Components/CTA";
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
@@ -35,7 +34,7 @@ function App() {
                     <Trailer/>
                         <About/>
                             <Team/>
-                                <FaqJr/>
+                                <Faq/>
                                     <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px"}}
                                         style={{background: "#1e1e1e"}}>
                                         Our website uses cookies to improve your experience 🍪

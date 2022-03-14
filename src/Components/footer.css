@@ -1,42 +1,24 @@
-.footer-down{
-    width: 50%;
-    height: 0;
-    background-color: black;
-}
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
 
 .text-footer{
+    margin-top: 30%;
     font-size: 24px;
-    font-family: Roboto-Bold;
+    font-family: Fredoka;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.full{
-    width: 100%;
-    height: 50px;
-}
-
-.line{
-    border-bottom: black 2px;
-    width: 60%;
-}
-
 .footer{
-    background: #1e1e1e;
-    height: 10px;
+    background-color: transparent;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    bottom: 0;
     width: 100%;
 }
 
 .footerLogo{
+    display: flex;
+    justify-content: space-between;
     left: 1rem;
     cursor: pointer;
 }
@@ -49,9 +31,8 @@
     margin: 10px;
 }
 
-.discordContainer{
+.discordContainerF{
     display: flex;
-    cursor: pointer;
     width: 40px;
     border-radius: 10px;
     padding: 10px;
@@ -60,13 +41,18 @@
     object-fit: contain;
 }
 
-.discordContainer > img{
+.discordContainerF > img{
     height: 20px;
 }
 
-.instagramContainer{
-    display: flex;
+.discordContainerF:hover{
+    background-color: white;
     cursor: pointer;
+}
+
+.instagramContainerF{
+    background-color: transparent;
+    display: flex;
     border-radius: 10px;
     padding: 10px;
     width: 40px;
@@ -75,15 +61,17 @@
     object-fit: contain;
 }
 
-.instagramContainer > img{
+.instagramContainerF > img{
     height: 20px;
 }
 
-
-
-.twitterContainer{
-    display: flex;
+.instagramContainerF:hover{
     cursor: pointer;
+    background-color: white;
+}
+
+.twitterContainerF{
+    display: flex;
     padding: 10px;
     border-radius: 10px;
     width: 40px;
@@ -92,16 +80,13 @@
     object-fit: contain;
 }
 
-.twitterContainer > img{
+.twitterContainerF > img{
     height: 20px;
 }
 
-.mintButton {
-    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
-    border-radius: 50px;
-    padding: 15px 40px;
-    -webkit-animation-direction: alternate;
-    color: black;
-    font-size: 20px;
+.twitterContainerF:hover{
+    cursor: pointer;
+    background-color: white;
 }
+
 

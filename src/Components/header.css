@@ -1,7 +1,9 @@
-
-
 .header {
-    background: transparent;
+    background-color: #7388E1FF;
+    z-index: 2;
+    position: sticky;
+    top: 0%;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -13,7 +15,8 @@
 .timer {
     margin-left: -20px;
     height: 100px;
-    color: rgba(255,255,255, 0.8);
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
     width: 100%;
 }
 
@@ -40,15 +43,23 @@
 }
 
 .abouthead:hover{
-    color: rgba(255, 255, 255, 0.8);
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
 }
 
 .teamhead:hover{
-    color: rgba(255, 255, 255, 0.8);
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
 }
 
 .faqhead:hover{
-    color: rgba(255, 255, 255, 0.8);
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+}
+
+.road-maphead:hover{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
 }
 
 .headerItems > p{
@@ -65,7 +76,7 @@
     margin: 10px;
 }
 
-.discordContainer{
+.discordContainerH{
     display: flex;
     margin: 10px;
     border-radius: 10px;
@@ -76,16 +87,16 @@
     object-fit: contain;
 }
 
-.discordContainer:hover{
+.discordContainerH:hover{
     cursor: pointer;
     background-color: white;
 }
 
-.discordContainer > img{
+.discordContainerH > img{
     height: 20px;
 }
 
-.instagramContainer{
+.instagramContainerH{
     display: flex;
     margin: 10px;
     border-radius: 10px;
@@ -96,21 +107,21 @@
     object-fit: contain;
 }
 
-.instagramContainer > img{
+.instagramContainerH > img{
     height: 20px;
 }
 
-.instagramContainer:hover{
+.instagramContainerH:hover{
     cursor: pointer;
     background-color: white;
 }
 
-.twitterContainer:hover{
+.twitterContainerH:hover{
     cursor: pointer;
     background-color: white;
 }
 
-.twitterContainer{
+.twitterContainerH{
     display: flex;
     margin: 10px;
     padding: 10px;
@@ -121,8 +132,12 @@
     object-fit: contain;
 }
 
-.twitterContainer > img{
+.twitterContainerH > img{
     height: 20px;
+}
+
+twitterContainerH @media screen and(max-height: 500px) and (max-width:400px)  {
+
 }
 
 

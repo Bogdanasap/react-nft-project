@@ -1,7 +1,6 @@
 
 
 .container{
-    background: #f95984;
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -42,19 +41,23 @@
 }
 
 .card1:hover{
-    background-color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(rgba(0,0,0,10), gold, rgba(0,0,0,10));
     box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
     inset 0 -15px 0 rgba(255, 255, 255, 0.25),
     0 45px 0 rgba(0,0,0,0.15);
+
 }
 
 .eugen{
-    box-shadow-left: 0 15px 0 #1e1e1e, 0 15px #1e1e1e;
     cursor: pointer;
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .radu{
@@ -62,7 +65,11 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .vlad{
@@ -70,7 +77,11 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .stefan{
@@ -78,7 +89,11 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .boboc{
@@ -86,7 +101,11 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .bogdan {
@@ -94,7 +113,11 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .cristiana{
@@ -102,13 +125,17 @@
     bottom: 270px;
     height: 200px;
     width: 200px;
-    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: gold;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 2px gold;
 }
 
 .content{
-    font-family: "Annie Use Your Telescope";
+    font-family: "Righteous";
     font-size: large;
-    color: #1e1e1e;
+    color: white;
     bottom: -100px;
 }
 

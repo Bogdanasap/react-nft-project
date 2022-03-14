@@ -8,11 +8,11 @@ import "./FaqJr.css";
 function FaqJr() {
 
     return (
-        <div>
+            <div className="container">
             <Accordion className='accordion item' flush >
                 <Accordion.Item eventKey="0" className='faq' bsPrefix="bs">
-                    <Accordion.Header >
-                        <p >Accordion Item #1</p>
+                    <Accordion.Header className='title'>
+                        <p>Accordion Item #1</p>
                         </Accordion.Header>
                     <Accordion.Body flush className='contents transparent'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

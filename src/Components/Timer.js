@@ -22,7 +22,7 @@ const Timer  = () => {
 
     /////Target time variables//////
 
-    let targetDay = 5;
+    let targetDay = 20;
     //targetDay = targetDay -1 ;
     let daysRem = targetDay - (curDay);
 
@@ -63,7 +63,7 @@ const Timer  = () => {
     }, [counter]);
 
     return (
-        <div className="timer">MINT AVAILABLE ON: 05/03/2022 at 20:00:00
+        <div className="timer">MINT AVAILABLE ON: 20/03/2022 at 20:00:00
         <div className="timer">MINT AVAILABLE IN: {daysRem} DAYS {hoursRem} HOURS {minuteRem} MINUTES {counter} SECONDS</div>
         </div>
 

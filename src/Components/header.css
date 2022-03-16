@@ -36,7 +36,7 @@
 
 .headerItems{
     display: flex;
-    color: rgba(0,0,20);
+    color: rgb(0,0,20);
     font-size: 30px;
     cursor: pointer;
     font-family: 'Righteous';

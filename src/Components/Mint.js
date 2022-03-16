@@ -151,7 +151,7 @@ const Mint = () => {
         <div className='mint'>
             <Header/>
         <div className="space-up"></div>
-        <div className="column-text">JOIN THE  DRIPPYDOBS</div>
+        <div className="column-text"></div>
             <div className="space-up"></div>
             <div className="column rainbow " style={{ marginLeft: 'auto', marginRight: 'auto'}}>
             <div className="card">

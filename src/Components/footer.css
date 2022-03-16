@@ -1,85 +1,26 @@
-.footer-down{
-    width: 50%;
-    height: 0;
-    background-color: black;
-}
 
-.flex{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-}
-
-.center{
-    margin-left: 20%;
-    display: flex;
-}
-
-.line-footer{
-    width: 100%;
-    justify-content: center;
-}
 
 .text-footer{
+    margin-top: 30%;
     font-size: 24px;
     font-family: Fredoka;
     color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-}
-
-.text-footer-logo{
-    font-family: Fredoka;
-    color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    margin-left: 30%;
-    text-decoration: none;
-}
-
-.text-footer-p{
-    margin-top: 15px;
-    font-size: 15px;
-    font-family: Fredoka;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    width: 100%;
-}
-
-.margin-left{
-    margin-left: 5px;
-    width: 200px;
-}
-
-.margin-down{
-    margin-top: 5px;
-}
-
-.full{
-    width: 100%;
-    height: 50px;
-}
-
-.line{
-    border-bottom: black 2px;
-    width: 200px;
 }
 
 .footer{
-    background: #1e1e1e;
-    height: 10px;
+    background-color: transparent;
+    height: 20px;
     display: flex;
     align-items: center;
-    bottom: 0;
+    justify-content: space-between;
     width: 100%;
 }
 
 .footerLogo{
+    display: flex;
+    justify-content: space-between;
     left: 1rem;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .footerActions{
@@ -90,9 +31,8 @@
     margin: 10px;
 }
 
-.discordContainer{
+.discordContainerF{
     display: flex;
-    cursor: pointer;
     width: 40px;
     border-radius: 10px;
     padding: 10px;
@@ -101,13 +41,18 @@
     object-fit: contain;
 }
 
-.discordContainer > img{
+.discordContainerF > img{
     height: 20px;
 }
 
-.instagramContainer{
-    display: flex;
+.discordContainerF:hover{
+    background-color: white;
     cursor: pointer;
+}
+
+.instagramContainerF{
+    background-color: transparent;
+    display: flex;
     border-radius: 10px;
     padding: 10px;
     width: 40px;
@@ -116,15 +61,17 @@
     object-fit: contain;
 }
 
-.instagramContainer > img{
+.instagramContainerF > img{
     height: 20px;
 }
 
-
-
-.twitterContainer{
-    display: flex;
+.instagramContainerF:hover{
     cursor: pointer;
+    background-color: white;
+}
+
+.twitterContainerF{
+    display: flex;
     padding: 10px;
     border-radius: 10px;
     width: 40px;
@@ -133,16 +80,13 @@
     object-fit: contain;
 }
 
-.twitterContainer > img{
+.twitterContainerF > img{
     height: 20px;
 }
 
-.mintButton {
-    background: linear-gradient(to right, #f95984, rgb(255, 51, 51));
-    border-radius: 50px;
-    padding: 15px 40px;
-    -webkit-animation-direction: alternate;
-    color: black;
-    font-size: 20px;
+.twitterContainerF:hover{
+    cursor: pointer;
+    background-color: white;
 }
+
 

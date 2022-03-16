@@ -24,7 +24,8 @@
 .faq{
     font-family: Righteous;
     align-items: center;
-    color: black;
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
     font-size: 45px;
 }
 

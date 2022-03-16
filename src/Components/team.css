@@ -1,11 +1,9 @@
-
-
 .container{
     height: fit-content;
     width: fit-content;
     display: flex;
     margin-top: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -27,6 +25,10 @@
     align-items: flex-start;
 }
 
+.card1 paragraph{
+
+}
+
 .card1::before{
     content: '';
     position: absolute;
@@ -40,13 +42,13 @@
     filter: blur(5px);
 }
 
-.card1:hover{
+/*.card1:hover{
     background: linear-gradient(rgba(0,0,0,10), gold, rgba(0,0,0,10));
     box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
     inset 0 -15px 0 rgba(255, 255, 255, 0.25),
     0 45px 0 rgba(0,0,0,0.15);
 
-}
+}*/
 
 .eugen{
     cursor: pointer;
@@ -55,9 +57,9 @@
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .radu{
@@ -67,9 +69,9 @@
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .vlad{
@@ -79,21 +81,21 @@
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .stefan{
+    right: 100px;
     cursor: pointer;
-    bottom: 270px;
     height: 200px;
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .boboc{
@@ -103,21 +105,21 @@
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
-.bogdan {
+.bogdan{
     cursor: pointer;
     bottom: 270px;
     height: 200px;
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .cristiana{
@@ -127,16 +129,17 @@
     width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: gold;
+    border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 2px gold;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .content{
     font-family: "Righteous";
+    text-shadow: 1px 1px lightblue;;
     font-size: large;
-    color: white;
-    bottom: -100px;
+    color: aliceblue;
+    bottom: -20px;
 }
 
 .eugen:hover{

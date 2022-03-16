@@ -9,7 +9,10 @@ function FaqJr() {
 
     return (
             <div className="container">
-            <Accordion className='accordion item' flush >
+                <div className='faq'>
+                    <h1>FAQ</h1>
+                </div>
+            <Accordion className='accordion item flush' >
                 <Accordion.Item eventKey="0" className='faq' bsPrefix="bs">
                     <Accordion.Header className='title'>
                         <p>Accordion Item #1</p>

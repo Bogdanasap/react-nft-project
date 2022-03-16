@@ -33,33 +33,20 @@ const Footer = () => {
         <div className='footer'>
                 <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
+                    <div className='footerLogo text-footer'>
+                        DobberLads
+                    </div>
                 </div>
-            <div className='footerLogo text-footer'>
-                DobberLads
-            </div>
-            <div className="line-footer">
-                <div className="flex">
-                <a href="/termsAndConditions" className="text-footer-p">Terms
-                </a>
-                    <a href="/privacyPolicy" className="text-footer-p margin-left">Privacy Policy</a>
-                </div>
-                <div className="line">
-                </div>
-            <div>
-            </div>
-                <p className="text-footer-p margin-down">© Dobberlads 2022</p>
-            </div>
                     <div className="footerActions">
-                        <div className='discordContainer ' onClick={moveToDiscord}>
+                        <div className='discordContainerF' onClick={moveToDiscord}>
                             <img src={discordIcon}/>
-                            <a href="https://discord.com/"></a>
                         </div>
 
-                        <div className='instagramContainer' onClick={moveToInsta}>
+                        <div className='instagramContainerF' onClick={moveToInsta}>
                             <img src={instagramIcon}/>
                         </div>
 
-                        <div className='twitterContainer' onClick={moveToTwitter}>
+                        <div className='twitterContainerF' onClick={moveToTwitter}>
                             <img src={twitterIcon}/>
                         </div>
                     </div>

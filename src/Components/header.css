@@ -89,7 +89,7 @@
 
 .discordContainerH:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .discordContainerH > img{
@@ -113,12 +113,12 @@
 
 .instagramContainerH:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .twitterContainerH:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .twitterContainerH{

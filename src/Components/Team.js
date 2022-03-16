@@ -11,6 +11,7 @@ import "./Mint.scss";
 
 const Team = () => {
     return (
+        <div className='diagonal'>
         <div className='container'>
             <div className="story2">
                 <div className='box2'>
@@ -99,7 +100,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-
+        </div>
         </div>
 
 

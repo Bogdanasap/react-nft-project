@@ -46,12 +46,11 @@
 }
 
 .discordContainerF:hover{
-    background-color: white;
+    background-color: aliceblue;
     cursor: pointer;
 }
 
 .instagramContainerF{
-    background-color: transparent;
     display: flex;
     border-radius: 10px;
     padding: 10px;
@@ -67,7 +66,7 @@
 
 .instagramContainerF:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .twitterContainerF{
@@ -86,7 +85,7 @@
 
 .twitterContainerF:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 

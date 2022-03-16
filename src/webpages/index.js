@@ -14,6 +14,8 @@ import Mint from '../Components/Mint'
 import Faq from "../Components/Faq"
 import About from "../Components/About"
 import reportWebVitals from '../reportWebVitals';
+import TermsAndConditions from "../Components/PrivacyPolicy";
+import PrivacyPolicy from "../Components/PrivacyPolicy";
 
 /*
 ReactDOM.render(
@@ -37,6 +39,8 @@ const Webpages = () => {
             <Route exact path="/" component= {About} />
             <Route path = "/mint" component = {Mint} />
             <Route path = "/team" component = {Team} />
+            <Route path = "/termsAndConditions" component={TermsAndConditions} />
+            <Route path = "/privacyPolicy" component={PrivacyPolicy} />
         </Router>
     );
 };

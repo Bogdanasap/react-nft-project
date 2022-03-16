@@ -37,8 +37,18 @@ const Footer = () => {
             <div className='footerLogo text-footer'>
                 DobberLads
             </div>
-            <div></div>
-            <div className="line"></div>
+            <div className="line-footer">
+                <div className="flex">
+                <a href="/termsAndConditions" className="text-footer-p">Terms
+                </a>
+                    <a href="/privacyPolicy" className="text-footer-p margin-left">Privacy Policy</a>
+                </div>
+                <div className="line">
+                </div>
+            <div>
+            </div>
+                <p className="text-footer-p margin-down">© Dobberlads 2022</p>
+            </div>
                     <div className="footerActions">
                         <div className='discordContainer ' onClick={moveToDiscord}>
                             <img src={discordIcon}/>

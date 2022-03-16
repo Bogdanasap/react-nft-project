@@ -16,29 +16,8 @@ import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
 import Header from "./Components/Header";
-
-/*
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-
-
- */
-
-
-/*
-<Route path="/faq" element={<Faq />} />
-<Route path="/team" element={<Team/>}/>
-
- */
+import TermsAndConditions from "./Components/TermsAndConditions";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
 
 
 ReactDOM.render(
@@ -46,6 +25,8 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="/mint" element={<Mint />} />
+            <Route path="/termsAndConditions" element={<TermsAndConditions/>} />
+            <Route path="/privacyPolicy" element={<PrivacyPolicy/>} />
         </Routes>
     </Router>,
 

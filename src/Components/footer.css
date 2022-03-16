@@ -4,16 +4,57 @@
     background-color: black;
 }
 
-.center{
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
+    height: 50px;
+}
+
+.center{
+    margin-left: 20%;
     display: flex;
+}
+
+.line-footer{
+    width: 100%;
+    justify-content: center;
 }
 
 .text-footer{
     font-size: 24px;
-    font-family: Roboto-Bold;
+    font-family: Fredoka;
     color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.text-footer-logo{
+    font-family: Fredoka;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+.text-footer-p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Fredoka;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    width: 100%;
+}
+
+.margin-left{
+    margin-left: 5px;
+    width: 200px;
+}
+
+.margin-down{
+    margin-top: 5px;
 }
 
 .full{
@@ -23,7 +64,7 @@
 
 .line{
     border-bottom: black 2px;
-    width: 60%;
+    width: 200px;
 }
 
 .footer{
@@ -31,7 +72,6 @@
     height: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     bottom: 0;
     width: 100%;
 }
@@ -39,6 +79,7 @@
 .footerLogo{
     left: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .footerActions{

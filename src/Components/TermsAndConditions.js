@@ -7,6 +7,7 @@ import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "../../src/mintAbi.json"
 import Header from "./Header";
+import HeaderPages from "./HeaderPages";
 import Footer from "./Footer";
 import {Container} from "react-bootstrap";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
@@ -20,7 +21,7 @@ const TermsAndConditions = () => {
 
     return (
         <div className="TermsAndConditions">
-            <Header/>
+            <HeaderPages />
             <div className="space"> </div>
             <Container>
                 <div className="text-cont">

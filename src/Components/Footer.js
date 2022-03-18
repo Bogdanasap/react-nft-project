@@ -35,7 +35,7 @@ const Footer = () => {
                 <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
                     <div className='footerLogo text-footer'>
-                        DobberLads
+                        DoberLads
                     </div>
                 </div>
                 <div className="footerItems">

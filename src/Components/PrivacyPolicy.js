@@ -6,6 +6,7 @@ import nft from'../assets/Aqua.png'
 import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
 import mint from "../../src/mintAbi.json"
+import HeaderPages from "./HeaderPages";
 import Header from "./Header";
 import Footer from "./Footer";
 import {Container} from "react-bootstrap";
@@ -20,7 +21,7 @@ const PrivacyPolicy = () => {
 
     return (
         <div className="TermsAndConditions">
-            <Header/>
+            <HeaderPages/>
             <div className="space"> </div>
             <Container>
                 <div className="text-cont">

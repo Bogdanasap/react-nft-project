@@ -25,7 +25,7 @@ const TermsAndConditions = () => {
             <div className="space"> </div>
             <Container>
                 <div className="text-cont">
-                    <p className="text-h">Terms and Conditions for MobDobs</p>
+                    <p className="text-h">Terms of Service</p>
                 <br/>
                 <p className="text">Introduction
                 These Website Standard Terms and Conditions written on this webpage shall manage your use of our website, MobDobs.com accessible at MobDobs.com.

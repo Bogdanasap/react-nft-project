@@ -6,6 +6,7 @@ import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
 import dubbsLogo from "../assets/header/img.png";
 import {Col, Container, NavLink, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
 
@@ -38,9 +39,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footerItems">
-                    <p className='terms'>Terms of Service</p>
+                    <Link to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
                     <p className='dash'>|</p>
-                    <p className='privacy'>Privacy Policy</p>
+                    <Link to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
                 </div>
 
         </div>

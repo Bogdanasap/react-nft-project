@@ -46,6 +46,10 @@
     color: aliceblue;
 }
 
+.Link{
+    text-decoration: none;
+}
+
 .terms{
     margin-right: 10px;
 }

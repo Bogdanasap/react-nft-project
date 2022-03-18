@@ -37,19 +37,12 @@ const Footer = () => {
                         DobberLads
                     </div>
                 </div>
-                    <div className="footerActions">
-                        <div className='discordContainerF' onClick={moveToDiscord}>
-                            <img src={discordIcon}/>
-                        </div>
+                <div className="footerItems">
+                    <p className='terms'>Terms of Service</p>
+                    <p className='dash'>|</p>
+                    <p className='privacy'>Privacy Policy</p>
+                </div>
 
-                        <div className='instagramContainerF' onClick={moveToInsta}>
-                            <img src={instagramIcon}/>
-                        </div>
-
-                        <div className='twitterContainerF' onClick={moveToTwitter}>
-                            <img src={twitterIcon}/>
-                        </div>
-                    </div>
         </div>
 
     )

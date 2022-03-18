@@ -15,7 +15,6 @@ import mint from "./mintAbi.json"
 import FaqJr from "./Components/FaqJr";
 import Timer from "./Components/Timer";
 import AbtTeam from './Components/AbtTeam'
-import Webpages from './webpages';
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
@@ -34,13 +33,13 @@ function App() {
                     <Trailer/>
                         <About/>
                             <Team/>
-                                <FaqJr/>
+                                <Faq/>
                                     <CookieConsent debug={true} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
                                         style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>
                                         Our website uses cookies to improve your experience 🍪
                                     </CookieConsent>
                                         <Footer />
-            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
 

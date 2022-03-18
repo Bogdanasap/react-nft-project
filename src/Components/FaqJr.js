@@ -12,9 +12,9 @@ function FaqJr() {
                 <div className='faq'>
                     <h1>FAQ</h1>
                 </div>
-            <Accordion className='accordion item flush' >
-                <Accordion.Item eventKey="0" className='faq' bsPrefix="bs">
-                    <Accordion.Header className='title'>
+            <Accordion className='accordion1 item' flush >
+                <Accordion.Item eventKey="0" className='faqjr' bsPrefix="bs">
+                    <Accordion.Header className='titlejr'>
                         <p>Accordion Item #1</p>
                         </Accordion.Header>
                     <Accordion.Body flush className='contents transparent'>
@@ -22,9 +22,9 @@ function FaqJr() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-            <Accordion className='accordion item' flush >
-                <Accordion.Item eventKey="1" className='faq'>
-                    <Accordion.Header className='title'>Accordion Item #2</Accordion.Header>
+            <Accordion className='accordion1 item' flush >
+                <Accordion.Item eventKey="1" className='faqjr'>
+                    <Accordion.Header className='titlejr'>Accordion Item #2</Accordion.Header>
                     <Accordion.Body className='contents transparent'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </Accordion.Body>

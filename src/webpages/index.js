@@ -39,8 +39,8 @@ const Webpages = () => {
             <Route exact path="/" component= {About} />
             <Route path = "/mint" component = {Mint} />
             <Route path = "/team" component = {Team} />
-            <Route path = "/termsAndConditions" component={TermsAndConditions} />
-            <Route path = "/privacyPolicy" component={PrivacyPolicy} />
+            <Route path = "/terms_and_conditions" component={TermsAndConditions} />
+            <Route path = "/privacy_policy" component={PrivacyPolicy} />
         </Router>
     );
 };

@@ -34,9 +34,9 @@ const Footer = () => {
         <div className='footer'>
                 <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
-                    <div className='footerLogo text-footer'>
+                    <Link to="/"><div className='footerLogo text-footer'>
                         DobberLads
-                    </div>
+                    </div></Link>
                 </div>
                 <div className="footerItems">
                     <Link to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>

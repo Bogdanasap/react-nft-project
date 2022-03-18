@@ -1,10 +1,8 @@
-
-
 .text-footer{
     margin-top: 30%;
     font-size: 24px;
     font-family: Fredoka;
-    color: rgba(255, 255, 255, 0.8);
+    color: aliceblue;
 }
 
 .footer{
@@ -14,6 +12,10 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.text-footer:hover{
+    color: lightblue;
 }
 
 .footerLogo{
@@ -31,6 +33,38 @@
     margin: 10px;
 }
 
+
+
+.footerItems{
+    margin-top: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 40%;
+    font-size: 20px;
+    font-family: Fredoka;
+    color: aliceblue;
+}
+
+.terms{
+    margin-right: 10px;
+}
+
+.dash{
+    margin-right: 10px;
+}
+
+.terms:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+.privacy:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+/*
 .discordContainerF{
     display: flex;
     width: 40px;
@@ -87,5 +121,6 @@
     cursor: pointer;
     background-color: aliceblue;
 }
+ */
 
 

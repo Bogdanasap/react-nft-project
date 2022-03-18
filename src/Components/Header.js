@@ -24,11 +24,11 @@ const Header = () => {
     }
 
     function moveToTeam() {
-        window.scrollTo(0,1300);
+        window.scrollTo(0,1200);
     }
 
     function moveToAbout() {
-        window.scrollTo(0,300);
+        window.scrollTo(0,250);
     }
 
     function moveToTwitter(){

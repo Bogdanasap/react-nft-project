@@ -16,17 +16,13 @@ import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
 import Header from "./Components/Header";
-import TermsAndConditions from "./Components/TermsAndConditions";
-import PrivacyPolicy from "./Components/PrivacyPolicy";
-
 
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="/mint" element={<Mint />} />
-            <Route path="/termsAndConditions" element={<TermsAndConditions/>} />
-            <Route path="/privacyPolicy" element={<PrivacyPolicy/>} />
+
         </Routes>
     </Router>,
 

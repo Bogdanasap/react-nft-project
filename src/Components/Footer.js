@@ -5,7 +5,7 @@ import discordIcon from "../assets/assets_website/discord-black-icon-703937.png"
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
 import dubbsLogo from "../assets/header/img.png";
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Container, NavLink, Row} from "react-bootstrap";
 
 const Footer = () => {
 

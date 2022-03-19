@@ -74,10 +74,16 @@
 
 .terms{
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .privacy{
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .dash{

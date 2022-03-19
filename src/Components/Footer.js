@@ -54,7 +54,7 @@ const Footer = () => {
                 <Col style={{position: "relative"}}>
                     <div className="copyrights">
                         <p className="terms">
-                    © DoberLads
+                    ©DoberLads
                         </p>
                 </div>
                 </Col>

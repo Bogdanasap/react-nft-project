@@ -32,17 +32,34 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-                <div className='footerLogo' onClick={moveToTop}>
+            <Container fluid>
+            <Row >
+                <Col>
+                    <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo' />
                     <div className='footerLogo text-footer'>
-                        DoberLads
+                        <Link className="no-decorations" to="/">
+                            DoberLads
+                        </Link>
                     </div>
                 </div>
-                <div className="footerItems">
-                    <Link to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
+                </Col>
+                <Col style={{position: "relative"}} xs={6} >
+                    <div className="footerItems">
+                    <Link className="no-decorations " to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
                     <p className='dash'>|</p>
-                    <Link to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
+                    <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
                 </div>
+                </Col>
+                <Col style={{position: "relative"}}>
+                    <div className="copyrights">
+                        <p className="terms">
+                    © DoberLads
+                        </p>
+                </div>
+                </Col>
+            </Row>
+            </Container>
 
         </div>
 

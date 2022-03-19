@@ -17,21 +17,6 @@ import reportWebVitals from '../reportWebVitals';
 import TermsAndConditions from "../Components/PrivacyPolicy";
 import PrivacyPolicy from "../Components/PrivacyPolicy";
 
-/*
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-
-
- */
 
 const Webpages = () => {
     return(
@@ -39,7 +24,7 @@ const Webpages = () => {
             <Route exact path="/" component= {About} />
             <Route path = "/mint" component = {Mint} />
             <Route path = "/team" component = {Team} />
-            <Route path = "/terms_and_conditions" component={TermsAndConditions} />
+            <Route path = "/terms_of_service" component={TermsAndConditions} />
             <Route path = "/privacy_policy" component={PrivacyPolicy} />
         </Router>
     );

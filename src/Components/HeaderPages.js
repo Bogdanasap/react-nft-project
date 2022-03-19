@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './HeaderPages.css'
 import Timer from '../Components/Timer'
 import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
@@ -45,21 +45,21 @@ const Header = () => {
         <div className='header'>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
-                <Link to="/">
+                <Link classname="no-decorations" to="/">
                     <img src={dobbsLogo} className='dubbLogo' />
                 </Link>
             </div>
             <div className='headerItems'>
-                <Link to="/">
+                <Link classname="no-decorations"  to="/">
                     <p className='abouthead' >ABOUT</p>
                 </Link>
-                <Link to="/">
+                <Link classname="no-decorations"  to="/">
                 <p className='teamhead' >TEAM</p>
                 </Link>
-                <Link to="/" >
+                <Link classname="no-decorations"  to="/" >
                     <p className='faqhead'>FAQ</p>
                 </Link>
-                <Link to="/"  style={{ textDecoration: 'none' }}>
+                <Link classname="no-decorations" k to="/"  style={{ textDecoration: 'none' }}>
                     <p className='road-maphead'>ROADMAP</p>
                 </Link>
             </div>

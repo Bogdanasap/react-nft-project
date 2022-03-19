@@ -16,7 +16,7 @@ import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
 import Header from "./Components/Header";
-import TermsAndConditions from "./Components/PrivacyPolicy";
+import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 
 ReactDOM.render(

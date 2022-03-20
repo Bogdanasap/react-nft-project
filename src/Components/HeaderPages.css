@@ -1,4 +1,4 @@
-.header {
+.headerPages {
     background-color: #7388E1FF;
     z-index: 2;
     text-shadow: 1px 1px lightblue;
@@ -47,7 +47,7 @@
     max-width: 100px;
 }
 
-.headerItems{
+.headerItemsPages{
     text-decoration: none;
     display: flex;
     color: rgb(0,0,20);
@@ -56,22 +56,22 @@
     font-family: 'Righteous';
 }
 
-.abouthead:hover{
+.aboutheadPages:hover{
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
 }
 
-.teamhead:hover{
+.teamheadPages:hover{
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
 }
 
-.faqhead:hover{
+.faqheadPages:hover{
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
 }
 
-.road-maphead:hover{
+.road-mapheadPages:hover{
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
 }

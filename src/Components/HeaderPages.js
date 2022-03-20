@@ -42,25 +42,22 @@ const Header = () => {
 
     return (
 
-        <div className='header'>
+        <div className='headerPages'>
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
                 <Link classname="no-decorations" to="/">
                     <img src={dobbsLogo} className='dubbLogo' />
                 </Link>
             </div>
-            <div className='headerItems'>
+            <div className='headerItemsPages'>
                 <Link classname="no-decorations"  to="/">
-                    <p className='abouthead' >ABOUT</p>
+                    <p className='aboutheadPages' >ABOUT</p>
                 </Link>
                 <Link classname="no-decorations"  to="/">
-                <p className='teamhead' >TEAM</p>
+                <p className='teamheadPages' >TEAM</p>
                 </Link>
                 <Link classname="no-decorations"  to="/" >
-                    <p className='faqhead'>FAQ</p>
-                </Link>
-                <Link classname="no-decorations" k to="/"  style={{ textDecoration: 'none' }}>
-                    <p className='road-maphead'>ROADMAP</p>
+                    <p className='faqheadPages'>FAQ</p>
                 </Link>
             </div>
             <div className='headerActions'>

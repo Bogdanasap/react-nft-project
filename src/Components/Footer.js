@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className="card" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
                     <div className="copyrights">
                         <p className="terms">
-                    ©DoberLads
+                            © DoberLads
                         </p>
                 </div>
                 </div>

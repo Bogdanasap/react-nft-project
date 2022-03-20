@@ -5,6 +5,7 @@ import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
 import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
 import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
+import {Link} from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import searchIcon from '../assets/header/search.png'
 
@@ -64,7 +65,9 @@ const Header = () => {
                 <p className='abouthead' onClick={moveToAbout}>ABOUT</p>
                 <p className='teamhead' onClick={moveToTeam}>TEAM</p>
                 <p className='faqhead' onClick={moveToFAQ}>FAQ</p>
-                <p className='road-maphead'>ROADMAP</p>
+                <Link className="road-maphead" to="/roadmap">
+                    <p className='road-maphead'>ROADMAP</p>
+                </Link>
             </div>
 
             <div className='headerActions'>

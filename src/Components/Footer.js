@@ -31,35 +31,33 @@ const Footer = () => {
     }
 
     return (
-        <div className='footer'>
-            <Container fluid>
-            <Row >
-                <Col>
-                    <div className='footerLogo' onClick={moveToTop}>
-                    <img src={dubbsLogo} className='footerLogo' />
-                    <div className='footerLogo text-footer'>
-                        <Link className="no-decorations" to="/">
+        <div className='footer-big'>
+            <div className="cards" style={{ backgroundColor: "#7388E1FF", margin: 0}}>
+                <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}} >
+                    <div className='footerLogo'>
+                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop}/>
+                    <div className=' text-footer'>
+                        <Link className="no-decorations l-text" to="/">
                             DoberLads
                         </Link>
                     </div>
+                   </div>
                 </div>
-                </Col>
-                <Col style={{position: "relative"}} xs={6} >
+                <div className="card" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
                     <div className="footerItems">
                     <Link className="no-decorations " to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
                     <p className='dash'>|</p>
                     <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
                 </div>
-                </Col>
-                <Col style={{position: "relative"}}>
+                </div>
+                <div className="card" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
                     <div className="copyrights">
                         <p className="terms">
                     ©DoberLads
                         </p>
                 </div>
-                </Col>
-            </Row>
-            </Container>
+                </div>
+            </div>
 
         </div>
 

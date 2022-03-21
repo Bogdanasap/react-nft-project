@@ -33,6 +33,7 @@ function App() {
                 <HeaderMobile/>
                         <About/>
                             <Team/>
+                                <Faq/>
                                 <FaqJr/>
                                     <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
                                         style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>

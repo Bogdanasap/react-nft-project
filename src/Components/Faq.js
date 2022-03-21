@@ -11,6 +11,7 @@ const Faq = () => {
 
     const[selected, setSelected] = useState(null)
 
+
     const toggle = (i) => {
         if(selected == i){
             return setSelected(null);
@@ -29,7 +30,7 @@ const Faq = () => {
                 <div className='item'>
                     <div className='title'>
                         <h2>{item.question}</h2>
-                        <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
+                        <button style={{transform: "2s ease"}} onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
 
                 </div>

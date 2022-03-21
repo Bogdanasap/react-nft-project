@@ -115,6 +115,10 @@
 
 @media (max-width: 648px) {
 
+    .titleRoad{
+        margin-left: 5%;
+    }
+
     .read-more-btn{
         margin-left: 25%;
     }

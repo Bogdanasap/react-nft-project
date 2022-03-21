@@ -21,7 +21,7 @@ const HeaderMobile = () => {
                         <img src={dobbsLogo} className='dubbLogo' />
                     </Link>
                 </div>
-                <div className='headerItems'>
+                <div className='headerItems' style={{marginBottom: "15px", marginRight: "120px"}}>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
@@ -43,7 +43,7 @@ const HeaderMobile = () => {
                             <p className='road-maphead'>ROADMAP</p>
                         </Link>
                     </li>
-                    <li className="option"  onClick={closeMobileMenu} style={{marginRight: "15px", float: "right"}}>
+                    <li className="option buttons"  onClick={closeMobileMenu} style={{marginRight: "15px", float: "right"}}>
                     <div className='headerActions'>
                         <div className="instagramContainerH" >
                             <img src={instagramIcon}/>

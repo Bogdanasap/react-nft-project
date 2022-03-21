@@ -14,7 +14,7 @@ const HeaderMobile = () => {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
-        <div className="header-mobile">
+        <div className="header">
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
                 <div className='logoContainer'>
                     <Link classname="no-decorations" to="/">

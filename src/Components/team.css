@@ -1,11 +1,13 @@
 .container {
     height: fit-content;
+    width: fit-content;
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 40px;
 }
 
 .card1{

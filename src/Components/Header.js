@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './header.css'
 import Timer from '../Components/Timer'
 import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'

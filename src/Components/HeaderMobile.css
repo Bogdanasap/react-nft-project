@@ -1,4 +1,4 @@
-.header-mobile {
+.header {
     display: flex;
     background-color: #7388E1FF;
     justify-content: space-between;
@@ -124,7 +124,7 @@
     display: block;
 }
 
-.header-mobile {
+.header {
     background-color: #7388E1FF;
     z-index: 2;
     text-shadow: 1px 1px lightblue;

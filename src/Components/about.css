@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
 }
 
 .non-hoverAbout{
@@ -23,6 +23,7 @@
     text-align: left;
     margin-top: 10px;
 }
+
 
 
 .stories{
@@ -34,7 +35,6 @@
     display: flex;
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
-    padding: 5px;
     align-items: center;
 }
 
@@ -54,8 +54,7 @@
     height: fit-content;
     background-color: transparent;
     border: 10px solid transparent;
-    padding: 10px;
-    margin: 100px;
+    margin: 40px;
 }
 
 .box2 {
@@ -97,5 +96,17 @@
     margin-top: 10px;
 }
 
+
+@media (max-width: 648px) {
+    .non-hoverAbout{
+        font-size: 18px;
+    }
+
+    .mintButton1{
+        padding: 10px 30px;
+        font-size: 22px;
+    }
+
+}
 
 

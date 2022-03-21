@@ -87,7 +87,6 @@ button.plus{
 }
 
 .contents{
-    text-shadow: 1px 1px lightblue;
     font-family: Fredoka;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -96,4 +95,23 @@ button.plus{
     text-align: left;
     overflow: hidden;
     transition: all 600ms ease-in-out;
+}
+
+@media (max-width: 648px) {
+
+    .title h2{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .item {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .contents{
+        text-align: center;
+        font-size: 22px;
+    }
+
 }

@@ -1,8 +1,13 @@
 .timer {
     font-family: 'Fredoka';
-    height: 15px;
+    height: 100px;
     background-color: #7388E1FF;
     color: rgba(255, 255, 255, 0.8);
     width: 100%;
-    padding: 15px;
+    padding: 30px;
+    margin: 0;
+}
+
+.timer-p{
+    text-align: center;
 }

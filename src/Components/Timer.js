@@ -62,9 +62,12 @@ const Timer  = () => {
         return () => clearInterval(timer);
     }, [counter]);
 
+
+    //<div className="timer" style={{margin: 0}}><p className="timer-p">MINT AVAILABLE IN: {daysRem} DAYS {hoursRem} HOURS {minuteRem} MINUTES {counter} SECONDS</p></div>
+
     return (
-        <div className="timer">MINT AVAILABLE ON: 20/03/2022 at 20:00:00
-        <div className="timer">MINT AVAILABLE IN: {daysRem} DAYS {hoursRem} HOURS {minuteRem} MINUTES {counter} SECONDS</div>
+        <div className="timer" style={{margin: 0}}>
+            <p className="timer-p">MINT AVAILABLE SOON</p>
         </div>
 
     )

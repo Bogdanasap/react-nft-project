@@ -37,24 +37,14 @@ const Team = () => {
 
         <div className='diagonal'>
         <div className='container'>
-            <div className="story2">
-                <div className='box2'>
-                    <h2>WHO ARE WE?</h2>
-                    <p>
-                        🦴 DoberLads is a team of 5 guys that share a passion for dogs.
-                        Our mission is to bring Dobermans to the ERC-271 blockchain and give every one of you a chance to own your very own custom Doberman NFT.
-                        We will bring our NFTs to the Metaverse with an app ready to offer functionality and battle procrastination.
-                        We have nothing but good intentions for our fans and the environment and we'd love to welcome you guys in our community.
-                    </p>
-                </div>
-            </div>
+
             <div className="card1">
                 <div className="icon">
                     <div className="content">
                         <h1 className='names'>Bogdan</h1>
                         <div className="bogdan">
                             <img src={BogdanDobb} className={'bogdan'} onClick={moveToLinkedinBogdan}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBogdan}/>
                         </div>
                     </div>
@@ -67,7 +57,7 @@ const Team = () => {
                         <h1 className='names'>Boboc</h1>
                         <div className="boboc">
                             <img src={BobocDobb} className={'boboc'} onClick={moveToLinkedinBoboc}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBoboc}/>
                         </div>
                     </div>
@@ -80,7 +70,7 @@ const Team = () => {
                         <h1 className='names'>Eugen</h1>
                         <div className="eugen">
                             <img src={EugenDobb} className='eugen' onClick={moveToLinkedinEugen}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet </h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinEugen}/>
                         </div>
                     </div>
@@ -93,7 +83,7 @@ const Team = () => {
                         <h1 className='names'>Stefan</h1>
                         <div className="stefan">
                             <img src={StefanDobb} className='stefan'/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'}/>
                         </div>
                     </div>
@@ -106,7 +96,7 @@ const Team = () => {
                         <h1 className='names'>Cristiana</h1>
                         <div className="cristiana">
                             <img src={CristianaDobb} className={'cristiana'} onClick={moveToLinkedinCristiana}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinCristiana}/>
                         </div>
                     </div>
@@ -119,7 +109,7 @@ const Team = () => {
                         <h1 className='names'>Vlad</h1>
                         <div className="vlad">
                             <img src={VladDobb} className={'vlad'} onClick={moveToLinkedinVlad}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinVlad}/>
                         </div>
                     </div>
@@ -132,7 +122,7 @@ const Team = () => {
                         <h1 className='names'>Radu</h1>
                         <div className="radu">
                             <img src={RaduDobb} className={'radu'}/>
-                            <h3 className='descriere'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+                            <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
                             <img src = {LinkedinLogo} className={'logo'}/>
                         </div>
                     </div>

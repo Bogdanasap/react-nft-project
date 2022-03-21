@@ -14,36 +14,36 @@ const HeaderMobile = () => {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
-        <div className="header">
+        <div className="header-mobile">
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
                 <div className='logoContainer'>
                     <Link classname="no-decorations" to="/">
                         <img src={dobbsLogo} className='dubbLogo' />
                     </Link>
                 </div>
-                <div className='headerItems' style={{marginBottom: "15px", marginRight: "120px"}}>
+                <div className='headerItems' style={{marginBottom: "15px", marginRight: "120px", marginTop: "25px"}}>
                 <ul className={click ? "nav-options active" : "nav-options"}>
-                    <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
+                    <li className="option " onClick={closeMobileMenu}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
                             <p className='road-maphead' >ABOUT</p>
                         </Link>
                     </li>
-                    <li className="option" onClick={closeMobileMenu} style={{marginRight: "15px"}}>
+                    <li className="option" onClick={closeMobileMenu} >
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead' >TEAM</p>
                         </Link>
                     </li>
-                    <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
+                    <li className="option " onClick={closeMobileMenu} >
                         <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead'>FAQ</p>
                         </Link>
                     </li>
-                    <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
-                        <Link  k to="/"  style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
+                    <li className="option " onClick={closeMobileMenu} >
+                        <Link  to="/"  style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead'>ROADMAP</p>
                         </Link>
                     </li>
-                    <li className="option buttons"  onClick={closeMobileMenu} style={{marginRight: "15px", float: "right"}}>
+                    <li className="option buttons"  onClick={closeMobileMenu} >
                     <div className='headerActions'>
                         <div className="instagramContainerH" >
                             <img src={instagramIcon}/>
@@ -60,7 +60,7 @@ const HeaderMobile = () => {
                 </div>
             <div className="mobile-menu" onClick={handleClick}>
                 {click ? (
-                    <CloseMenu className="menu-icon" />
+                    <CloseMenu className="menu-icon"/>
                 ) : (
                     <MenuIcon className="menu-icon" />
                 )}

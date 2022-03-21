@@ -10,6 +10,7 @@ import HeaderPages from "./HeaderPages";
 import Header from "./Header";
 import Footer from "./Footer";
 import {Container} from "react-bootstrap";
+import HeaderMobile from "./HeaderMobile";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
@@ -21,7 +22,7 @@ const PrivacyPolicy = () => {
 
     return (
         <div className="TermsAndConditions">
-            <HeaderPages/>
+            <HeaderMobile/>
             <div className="space"> </div>
             <Container>
                 <div className="text-cont">

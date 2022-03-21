@@ -43,14 +43,14 @@ const Footer = () => {
                     </div>
                    </div>
                 </div>
-                <div className="card" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
+                <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
                     <div className="footerItems">
                     <Link className="no-decorations " to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
                     <p className='dash'>|</p>
                     <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
                 </div>
                 </div>
-                <div className="card" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
+                <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
                     <div className="copyrights">
                         <p className="terms">
                             © DoberLads

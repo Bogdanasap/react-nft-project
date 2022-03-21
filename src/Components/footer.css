@@ -187,6 +187,7 @@ body {
     }
 
     .footerLogo{
+
         position: absolute;
         color: aliceblue;
         top: 50%;
@@ -243,7 +244,6 @@ body {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         margin: 0;
-
     }
 
     .footerLogo{
@@ -251,76 +251,10 @@ body {
         margin-left: 42%;
     }
 
-
-
-
-
 }
-
 
 @media (max-width: 1000px){
     footer-items{
         color: #00ffe1;
     }
 }
-
-/*
-.discordContainerF{
-    display: flex;
-    width: 40px;
-    border-radius: 10px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
-.discordContainerF > img{
-    height: 20px;
-}
-
-.discordContainerF:hover{
-    background-color: aliceblue;
-    cursor: pointer;
-}
-
-.instagramContainerF{
-    display: flex;
-    border-radius: 10px;
-    padding: 10px;
-    width: 40px;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
-.instagramContainerF > img{
-    height: 20px;
-}
-
-.instagramContainerF:hover{
-    cursor: pointer;
-    background-color: aliceblue;
-}
-
-.twitterContainerF{
-    display: flex;
-    padding: 10px;
-    border-radius: 10px;
-    width: 40px;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-}
-
-.twitterContainerF > img{
-    height: 20px;
-}
-
-.twitterContainerF:hover{
-    cursor: pointer;
-    background-color: aliceblue;
-}
- */
-
-

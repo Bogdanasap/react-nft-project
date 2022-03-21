@@ -18,6 +18,7 @@ import "./Fonts/Roboto/Roboto-Black.ttf";
 import Header from "./Components/Header";
 import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import RoadMap from "./Components/RoadMap";
 
 ReactDOM.render(
     <Router>
@@ -26,6 +27,7 @@ ReactDOM.render(
             <Route path="/mint" element={<Mint />} />
             <Route path = "/terms_of_service" element={<TermsAndConditions />} />
             <Route path = "/privacy_policy" element={<PrivacyPolicy />} />
+            <Route path = "/roadmap" element = {<RoadMap />} />
         </Routes>
     </Router>,
 

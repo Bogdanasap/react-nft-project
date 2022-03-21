@@ -11,14 +11,17 @@
     justify-content: space-evenly;
 }
 .logo-container {
+    height: 200px;
+    width: 130px;
+    background-color: #7388E1FF;
     position: sticky;
     top: -10px;
     align-items: center;
     justify-content: center;
 }
-.logo {
-    width: 45px;
-    height: 45px;
+.doberLogo {
+    height: 110px;
+    width: 90px;
 }
 .nav-options {
     display: flex;

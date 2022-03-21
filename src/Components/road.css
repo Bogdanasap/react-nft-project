@@ -1,56 +1,68 @@
-.road-map {
-    height: 1300px;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 40px;
-    margin-top: 100px;
+.road-map{
+    color: aliceblue;
+    margin: 0;
+    background-color: #001883;
 }
 
-.background {
-    background-color: black;
-    color: rgba(255, 255, 255, 0.8);
-
+.titleRoad{
+    color: aliceblue;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
 }
 
-.section {
-    height: 300px;
-    color: white;
-    font-size: 28px;
+.titleRoad h1{
+    font-family: Righteous;
+    text-shadow: 3px 3px lightblue;
+    font-size: 60px;
 }
 
-.div-up-left {
-    height: 250px;
-    width: 50%;
-    float: left;
+
+
+.doberImage{
+    height: 100px;
+    width: 30px
 }
 
-.div-up-right {
-    height: 250px;
-    width: 50%;
-    float: right;
-}
-
-.text-objective-left {
-    font-size: 28px;
-    margin-left: 5%;
-    float: left;
-}
-
-.text-objective-right {
-    font-size: 28px;
-    margin-right: 5%;
-    float: right;
-}
-
-.text-description-right {
+.road-map-q1-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
     font-size: 20px;
-    width: 50%;
-    float: right;
-    margin-right: 5%;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 
-.text-description-left {
+.road-map-q1-text-unshown{
+    display: none;
+}
+
+.road-map-q2-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
     font-size: 20px;
-    width: 50%;
-    float: left;
-    margin-left: 5%;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q2-text-unshown{
+    display: none;
+}
+
+.road-map-q3-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q3-text-unshown{
+    display: none;
 }

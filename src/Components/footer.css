@@ -121,6 +121,8 @@ body {
 
 }
 
+
+
 .card-logo {
     background-color: #7388E1FF;
     color: white;
@@ -178,13 +180,18 @@ body {
     .card-logo {
         background-color: #7388E1FF;
         color: white;
-        height: 100px;
+        height: 50px;
         width: 100%;
-        margin: 0;
         border: none;
         align-content: center;
         align-items: center;
     }
+
+    .display-footer{
+      display: none;
+    }
+
+
 
     .footerLogo{
         left: 50%;
@@ -213,7 +220,7 @@ body {
 
 
     .footer-big{
-        height: 210px;
+        height: 110px;
         background-color: #7388E1FF;
         display: flex;
         align-items: center;
@@ -222,12 +229,11 @@ body {
     }
 
     .card{
-        height: 70px;
+        height: 50px;
     }
 
     .card-logo{
-        height: 70px;
-        margin-bottom: 50px;
+        height: 50px;
     }
 
     .copyrights{

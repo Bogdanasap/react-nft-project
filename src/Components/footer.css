@@ -160,10 +160,19 @@ body {
     }
 
     .copyrights{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 16px;
         font-family: Fredoka;
-        position: relative;
+        position: absolute;
         color: aliceblue;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin: 0;
+
     }
 
     .card-logo {
@@ -178,14 +187,13 @@ body {
     }
 
     .footerLogo{
-        justify-content: left;
-        position: center;
+        left: 50%;
+        top: 50%;
+        position: absolute;
         color: aliceblue;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         margin: 0;
-    }
-
-    .footer-big{
-        margin-top: 150px;
     }
 }
 

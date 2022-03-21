@@ -5,6 +5,9 @@ import { ReactComponent as Logo } from "../assets/owner/menu.svg";
 import "./HeaderMobile.css";
 import {Link} from "react-router-dom";
 import dobbsLogo from "../assets/header/img.png";
+import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
+import twitterIcon from "../assets/assets_website/pngwing.com.png";
+import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 
 const HeaderMobile = () => {
     const [click, setClick] = useState(false);
@@ -22,23 +25,36 @@ const HeaderMobile = () => {
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
-                            <p className='abouthead' >ABOUT</p>
+                            <p className='road-maphead' >ABOUT</p>
                         </Link>
                     </li>
                     <li className="option" onClick={closeMobileMenu} style={{marginRight: "15px"}}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
-                            <p className='teamhead' >TEAM</p>
+                            <p className='road-maphead' >TEAM</p>
                         </Link>
                     </li>
                     <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
                         <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
-                            <p className='faqhead'>FAQ</p>
+                            <p className='road-maphead'>FAQ</p>
                         </Link>
                     </li>
                     <li className="option " onClick={closeMobileMenu} style={{marginRight: "15px"}}>
                         <Link  k to="/"  style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead'>ROADMAP</p>
                         </Link>
+                    </li>
+                    <li className="option"  onClick={closeMobileMenu} style={{marginRight: "15px", float: "right"}}>
+                    <div className='headerActions'>
+                        <div className="instagramContainerH" >
+                            <img src={instagramIcon}/>
+                        </div>
+                        <div className="twitterContainerH" >
+                            <img src={twitterIcon}/>
+                        </div>
+                        <div className="discordContainerH" >
+                            <img src={discordIcon}/>
+                        </div>
+                    </div>
                     </li>
                 </ul>
                 </div>
